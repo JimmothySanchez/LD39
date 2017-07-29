@@ -330,3 +330,862 @@ LogInit: Object subsystem initialized
 [2017.07.29-04.52.24:444][428]LogSavePackage: Save=55.63ms
 [2017.07.29-04.52.24:444][428]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/TestMap10376A479452A68FE639D08AEEB07F04D.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
 [2017.07.29-04.52.24:446][428]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-05.02.30:369][288]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LD39Custom/Maps/TestMap1' took 0.018
+[2017.07.29-05.02.30:397][288]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LD39Custom/Blueprints/Interfaces/I_Selectable] ([1] browsable assets)...
+[2017.07.29-05.02.30:397][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/LD39Custom/Blueprints/Interfaces/I_Selectable]
+[2017.07.29-05.02.30:409][288]LogSavePackage: Save=10.17ms
+[2017.07.29-05.02.30:409][288]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/I_Selectable_Auto1707805044FB4FBD69B97DD8BD2EDB4B2.tmp' to '../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/Blueprints/Interfaces/I_Selectable_Auto1.uasset'
+[2017.07.29-05.02.30:409][288]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/Blueprints/Interfaces/I_Selectable_Auto1.uasset
+[2017.07.29-05.02.30:409][288]LogFileHelpers: Auto-saving content packages took 0.026
+[2017.07.29-06.25.24:142][111]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Projects\LD39\AssetsSourceFiles\Clay_normal.png)
+[2017.07.29-06.25.24:298][111]LogTexture:Display: Building textures: Clay_normal (BC5, 1024X1024)
+[2017.07.29-06.25.53:504][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/Textures/Mat_Clay_Master" FILE="../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset" SILENT=true
+[2017.07.29-06.25.53:521][937]LogSavePackage: Save=14.83ms
+[2017.07.29-06.25.53:521][937]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Mat_Clay_MasterA957299744B66425B2C107AEC312AB04.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset'
+[2017.07.29-06.25.53:524][937]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset
+[2017.07.29-06.25.55:112][ 72]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.25.55:208][ 72]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.25.55:221][ 72]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.25.58:600][368]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.07.29-06.25.58:600][368]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.29-06.25.58:600][368]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.29-06.26.02:126][725]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.26.05:749][ 93]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.26.08:913][407]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.07.29-06.26.08:913][407]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.29-06.26.08:913][407]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.29-06.26.11:138][638]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.26.13:637][877]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.07.29-06.26.13:637][877]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.29-06.26.13:637][877]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.29-06.26.16:090][131]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.26.18:486][363]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.07.29-06.26.18:486][363]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.29-06.26.18:486][363]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.29-06.26.22:510][778]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.26.25:893][ 85]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.07.29-06.26.25:893][ 85]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.29-06.26.25:893][ 85]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.29-06.26.27:820][286]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.26.30:646][563]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.07.29-06.26.30:646][563]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.29-06.26.30:646][563]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.29-06.26.33:626][860]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.26.33:635][860]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-06.26.36:477][136]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.26.36:493][136]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-06.26.40:628][525]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.26.40:640][525]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-06.26.43:559][804]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.07.29-06.26.43:559][804]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.29-06.26.43:559][804]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.29-06.26.46:925][140]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.26.46:935][140]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.29-06.26.46:979][140]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-06.26.46:983][140]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.29-06.26.49:567][366]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.26.49:583][366]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.29-06.26.52:809][639]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2017.07.29-06.26.52:809][639]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.26.52:809][639]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.07.29-06.26.52:809][639]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.26.58:944][210]LogMaterialEditor: Saving and Compiling material Mat_Clay_Master
+[2017.07.29-06.26.59:528][210]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.26.59:561][210]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.26.59:578][210]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.26.59:636][210]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_Clay_Master, compiling. 
+[2017.07.29-06.27.00:565][210]TextureStreamingBuild:Display: Compiling optional shaders took 0.958 seconds.
+[2017.07.29-06.27.01:901][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/Textures/Mat_Clay_Master" FILE="../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset" SILENT=true
+[2017.07.29-06.27.01:922][210]LogSavePackage: Save=13.49ms
+[2017.07.29-06.27.01:922][210]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Mat_Clay_Master3888672E43D33A146F21309BC8211F27.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset'
+[2017.07.29-06.27.01:924][210]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset
+[2017.07.29-06.27.01:930][210]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2017.07.29-06.27.01:930][210]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.27.01:930][210]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.29-06.27.01:930][210]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.27.18:310][781]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.27.18:377][782]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.07.29-06.27.18:378][782]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.29-06.27.18:378][782]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.07.29-06.27.21:397][ 53]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2017.07.29-06.27.21:397][ 53]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.27.21:397][ 53]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.07.29-06.27.21:397][ 53]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.27.43:378][149]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.27.43:379][149]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Clay_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.29-06.27.43:379][149]LogMaterial:Warning: 	Function DetailTexturing: Missing function input 'DetailNormal'
+[2017.07.29-06.27.43:380][149]MaterialEditorStats:Error: Error [SM5] Function DetailTexturing: Missing function input 'DetailNormal'
+[2017.07.29-06.28.10:930][862]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.28.10:931][862]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Clay_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.29-06.28.10:931][862]LogMaterial:Warning: 	Function DetailTexturing: Missing function input 'DetailNormal'
+[2017.07.29-06.28.10:932][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.07.29-06.28.16:247][321]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.28.16:248][321]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Clay_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.29-06.28.16:248][321]LogMaterial:Warning: 	Function DetailTexturing: Missing function input 'DetailNormal'
+[2017.07.29-06.28.16:252][321]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.07.29-06.28.25:625][202]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.28.25:625][202]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Clay_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.29-06.28.25:625][202]LogMaterial:Warning: 	Function DetailTexturing: Missing function input 'DetailNormal'
+[2017.07.29-06.28.26:802][304]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.28.26:802][304]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Clay_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.29-06.28.26:802][304]LogMaterial:Warning: 	Function DetailTexturing: Missing function input 'DetailNormal'
+[2017.07.29-06.28.42:875][900]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.28.42:876][900]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Clay_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.29-06.28.42:876][900]LogMaterial:Warning: 	Function DetailTexturing: Missing function input 'DetailNormal'
+[2017.07.29-06.28.42:877][900]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.07.29-06.28.45:423][139]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.28.45:438][139]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.07.29-06.28.48:155][368]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.28.48:171][368]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.07.29-06.28.51:058][613]MaterialEditorStats: Info Base pass shader: 89 instructions
+[2017.07.29-06.28.51:059][613]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.28.51:059][613]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.07.29-06.28.51:059][613]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.29.15:852][939]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.29.20:292][354]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.29.20:308][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-06.29.24:240][712]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.07.29-06.29.24:240][712]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.29.24:240][712]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.07.29-06.29.24:240][712]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.29.48:768][  3]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.29.48:778][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.07.29-06.29.48:811][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-06.29.48:815][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.07.29-06.29.48:818][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.07.29-06.30.04:129][442]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.30.10:349][ 26]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.30.10:361][ 26]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.30.13:503][285]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.07.29-06.30.13:503][285]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.30.13:503][285]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.07.29-06.30.13:503][285]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.30.13:659][299]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.30.17:028][605]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.07.29-06.30.17:029][605]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.30.17:029][605]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.07.29-06.30.17:029][605]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.30.20:730][954]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.30.20:744][954]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.07.29-06.30.24:034][230]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.07.29-06.30.24:034][230]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.30.24:034][230]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.07.29-06.30.24:034][230]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.30.37:211][420]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.30.40:054][655]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.07.29-06.30.40:054][655]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.30.40:054][655]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.07.29-06.30.40:054][655]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.30.41:848][826]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.30.41:860][826]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.07.29-06.30.44:910][ 85]MaterialEditorStats: Info Base pass shader: 95 instructions
+[2017.07.29-06.30.44:910][ 85]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.30.44:910][ 85]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.07.29-06.30.44:910][ 85]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.30.53:507][870]LogMaterialEditor: Saving and Compiling material Mat_Clay_Master
+[2017.07.29-06.30.54:024][870]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.30.54:057][870]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.30.54:073][870]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.30.54:109][870]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_Clay_Master, compiling. 
+[2017.07.29-06.30.55:125][870]TextureStreamingBuild:Display: Compiling optional shaders took 1.020 seconds.
+[2017.07.29-06.30.56:424][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/Textures/Mat_Clay_Master" FILE="../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset" SILENT=true
+[2017.07.29-06.30.56:443][870]LogSavePackage: Save=14.41ms
+[2017.07.29-06.30.56:443][870]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Mat_Clay_MasterDD538D3A488AB3A64B5965B4EEB2E86A.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset'
+[2017.07.29-06.30.56:444][870]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset
+[2017.07.29-06.30.56:451][870]MaterialEditorStats: Info Base pass shader: 95 instructions
+[2017.07.29-06.30.56:451][870]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.30.56:451][870]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.29-06.30.56:451][870]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.31.00:534][242]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.29-06.31.22:486][184]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.07.29-06.31.22:492][184]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.29-06.31.22:492][184]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.29-06.31.22:492][184]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.07.29-06.31.22:494][184]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.07.29-06.31.22:499][184]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.29-06.31.22:499][184]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.29-06.31.22:499][184]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.07.29-06.31.22:500][184]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.07.29-06.31.22:506][184]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.29-06.31.22:507][184]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.29-06.31.22:507][184]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.07.29-06.31.22:508][184]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.07.29-06.31.22:538][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2017.07.29-06.31.22:539][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2017.07.29-06.31.22:540][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_2, compiling. 
+[2017.07.29-06.31.22:542][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_0, compiling. 
+[2017.07.29-06.31.22:545][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_2, compiling. 
+[2017.07.29-06.31.22:549][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_3, compiling. 
+[2017.07.29-06.31.22:553][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_5, compiling. 
+[2017.07.29-06.31.22:557][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_7, compiling. 
+[2017.07.29-06.31.22:561][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_8, compiling. 
+[2017.07.29-06.31.22:562][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_1, compiling. 
+[2017.07.29-06.31.22:563][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2017.07.29-06.31.22:565][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_4, compiling. 
+[2017.07.29-06.31.22:566][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_10, compiling. 
+[2017.07.29-06.31.22:567][184]MaterialEditorStats:Error: Error [SM5] (Node TextureObject) Texture Object> Requires valid texture
+[2017.07.29-06.31.30:136][828]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.31.31:909][976]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.31.34:971][228]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2017.07.29-06.31.34:971][228]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.31.34:971][228]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.07.29-06.31.34:971][228]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.31.36:502][365]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.31.39:401][608]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2017.07.29-06.31.39:401][608]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.31.39:401][608]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.07.29-06.31.39:401][608]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.31.53:695][908]LogMaterialEditor: Applying material Mat_Clay_Master
+[2017.07.29-06.31.54:210][908]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.31.54:242][908]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.31.54:259][908]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.31.54:290][908]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_Clay_Master, compiling. 
+[2017.07.29-06.31.55:178][908]TextureStreamingBuild:Display: Compiling optional shaders took 0.892 seconds.
+[2017.07.29-06.31.58:695][206]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2017.07.29-06.31.58:695][206]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.31.58:695][206]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.29-06.31.58:695][206]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.32.01:879][490]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.29-06.32.33:998][ 71]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-06.32.34:002][ 71]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.07.29-06.32.34:006][ 71]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.07.29-06.33.08:937][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/Maps/TestMap1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.07.29-06.33.08:993][801]LogSavePackage: Save=49.63ms
+[2017.07.29-06.33.08:993][801]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/TestMap1_Auto2751390DB4F2ED38F91F5EC9600C1AFA1.tmp' to '../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/Maps/TestMap1_Auto2.umap'
+[2017.07.29-06.33.08:994][801]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/Maps/TestMap1_Auto2.umap
+[2017.07.29-06.33.08:997][801]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LD39Custom/Maps/TestMap1' took 0.078
+[2017.07.29-06.33.08:997][801]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.078
+[2017.07.29-06.33.08:999][801]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LD39Custom/Blueprints/Interfaces/I_Selectable] ([1] browsable assets)...
+[2017.07.29-06.33.08:999][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/LD39Custom/Blueprints/Interfaces/I_Selectable]
+[2017.07.29-06.33.09:012][801]LogSavePackage: Save=11.25ms
+[2017.07.29-06.33.09:012][801]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/I_Selectable_Auto2242F5A8F44449C43079A56895E4EFE15.tmp' to '../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/Blueprints/Interfaces/I_Selectable_Auto2.uasset'
+[2017.07.29-06.33.09:013][801]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/Blueprints/Interfaces/I_Selectable_Auto2.uasset
+[2017.07.29-06.33.09:029][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LD39Custom/RawResources/Textures/Clay_normal] ([1] browsable assets)...
+[2017.07.29-06.33.09:037][801]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/LD39Custom/RawResources/Textures/Clay_normal.Clay_normal]
+[2017.07.29-06.33.09:037][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/LD39Custom/RawResources/Textures/Clay_normal]
+[2017.07.29-06.33.09:055][801]LogSavePackage: Save=16.96ms
+[2017.07.29-06.33.09:055][801]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Clay_normal_Auto217F99919452DB1B355CCCEAF5E707A36.tmp' to '../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/RawResources/Textures/Clay_normal_Auto2.uasset'
+[2017.07.29-06.33.09:056][801]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/RawResources/Textures/Clay_normal_Auto2.uasset
+[2017.07.29-06.33.09:056][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LD39Custom/RawResources/Textures/Mat_Clay_Master] ([1] browsable assets)...
+[2017.07.29-06.33.09:067][801]OBJ SavePackage:     Rendered thumbnail for [Material /Game/LD39Custom/RawResources/Textures/Mat_Clay_Master.Mat_Clay_Master]
+[2017.07.29-06.33.09:067][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/LD39Custom/RawResources/Textures/Mat_Clay_Master]
+[2017.07.29-06.33.09:092][801]LogSavePackage: Save=17.33ms
+[2017.07.29-06.33.09:092][801]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Mat_Clay_Master_Auto28D6DD0974846FEB1B1FF31AE0EA792BA.tmp' to '../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/RawResources/Textures/Mat_Clay_Master_Auto2.uasset'
+[2017.07.29-06.33.09:093][801]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/RawResources/Textures/Mat_Clay_Master_Auto2.uasset
+[2017.07.29-06.33.09:093][801]LogFileHelpers: Auto-saving content packages took 0.094
+[2017.07.29-06.36.20:947][579]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Projects\LD39\AssetsSourceFiles\Perlin_normal.png)
+[2017.07.29-06.36.21:046][579]LogTexture:Display: Building textures: Perlin_normal (BC5, 1024X1024)
+[2017.07.29-06.36.27:562][ 25]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.36.27:563][ 25]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Clay_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.29-06.36.27:563][ 25]LogMaterial:Warning: 	Function DetailTexturing: Missing function input 'DetailNormal'
+[2017.07.29-06.36.27:563][ 25]MaterialEditorStats:Error: Error [SM5] Function DetailTexturing: Missing function input 'DetailNormal'
+[2017.07.29-06.36.31:521][352]LogEditorTransaction: Undo Material Editor: Delete
+[2017.07.29-06.36.31:524][352]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.36.31:535][352]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.36.31:571][352]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.07.29-06.36.31:610][352]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.29-06.36.31:610][352]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.29-06.36.31:610][352]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.07.29-06.36.31:612][352]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.07.29-06.36.31:618][352]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_8, compiling. 
+[2017.07.29-06.36.34:279][546]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.36.35:706][656]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.36.36:326][701]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.36.38:158][842]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.36.38:169][842]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.29-06.36.38:198][842]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-06.36.38:202][842]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.07.29-06.36.38:206][842]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.29-06.36.41:525][108]MaterialEditorStats: Info Base pass shader: 89 instructions
+[2017.07.29-06.36.41:525][108]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.36.41:525][108]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.07.29-06.36.41:525][108]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.36.42:920][226]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.36.42:933][226]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.29-06.36.46:014][475]MaterialEditorStats: Info Base pass shader: 95 instructions
+[2017.07.29-06.36.46:014][475]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.36.46:014][475]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.29-06.36.46:014][475]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.36.47:265][580]LogMaterialEditor: Saving and Compiling material Mat_Clay_Master
+[2017.07.29-06.36.47:777][580]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.36.47:811][580]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.36.47:828][580]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.36.47:861][580]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_Clay_Master, compiling. 
+[2017.07.29-06.36.48:807][580]TextureStreamingBuild:Display: Compiling optional shaders took 0.951 seconds.
+[2017.07.29-06.36.50:201][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/Textures/Mat_Clay_Master" FILE="../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset" SILENT=true
+[2017.07.29-06.36.50:217][580]LogSavePackage: Save=14.26ms
+[2017.07.29-06.36.50:217][580]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Mat_Clay_Master556B8F2B4A0E01983DDE1B939A596325.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset'
+[2017.07.29-06.36.50:223][580]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset
+[2017.07.29-06.36.50:229][580]MaterialEditorStats: Info Base pass shader: 95 instructions
+[2017.07.29-06.36.50:229][580]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.36.50:229][580]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.07.29-06.36.50:229][580]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.37.13:915][423]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.37.13:951][423]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-06.37.13:954][423]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_1, compiling. 
+[2017.07.29-06.37.18:843][870]MaterialEditorStats: Info Base pass shader: 95 instructions
+[2017.07.29-06.37.18:843][870]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.37.18:844][870]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.29-06.37.18:844][870]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.37.20:456][ 10]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.37.21:856][121]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.37.21:869][121]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.29-06.37.25:955][473]MaterialEditorStats: Info Base pass shader: 95 instructions
+[2017.07.29-06.37.25:955][473]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.37.25:955][473]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.29-06.37.25:955][473]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.37.26:873][551]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.37.29:558][768]MaterialEditorStats: Info Base pass shader: 95 instructions
+[2017.07.29-06.37.29:558][768]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.37.29:558][768]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.29-06.37.29:559][768]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.38.06:424][335]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Projects\LD39\AssetsSourceFiles\Clay_basecolor.png)
+[2017.07.29-06.38.06:457][335]LogTexture:Display: Building textures: Clay_basecolor (AutoDXT, 1024X1024)
+[2017.07.29-06.38.15:421][975]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.38.15:454][975]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.07.29-06.38.15:458][975]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_1, compiling. 
+[2017.07.29-06.38.19:163][267]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.38.19:176][267]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_1, compiling. 
+[2017.07.29-06.38.22:091][509]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.38.22:106][509]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_1, compiling. 
+[2017.07.29-06.38.24:868][729]MaterialEditorStats: Info Base pass shader: 95 instructions
+[2017.07.29-06.38.24:868][729]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.38.24:868][729]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.29-06.38.24:868][729]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.38.31:779][328]LogMaterialEditor: Applying material Mat_Clay_Master
+[2017.07.29-06.38.32:295][328]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.38.32:326][328]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.38.32:343][328]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.38.32:375][328]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_Clay_Master, compiling. 
+[2017.07.29-06.38.33:310][328]TextureStreamingBuild:Display: Compiling optional shaders took 0.941 seconds.
+[2017.07.29-06.38.36:681][604]MaterialEditorStats: Info Base pass shader: 95 instructions
+[2017.07.29-06.38.36:681][604]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.38.36:681][604]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.07.29-06.38.36:681][604]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.40.27:823][569]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.40.31:278][847]MaterialEditorStats: Info Base pass shader: 95 instructions
+[2017.07.29-06.40.31:278][847]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.40.31:279][847]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.29-06.40.31:279][847]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.40.31:371][854]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.40.32:495][953]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.40.35:984][246]MaterialEditorStats: Info Base pass shader: 94 instructions
+[2017.07.29-06.40.35:984][246]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.40.35:984][246]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.29-06.40.35:984][246]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.40.37:487][375]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.40.40:487][624]MaterialEditorStats: Info Base pass shader: 94 instructions
+[2017.07.29-06.40.40:487][624]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.40.40:487][624]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.29-06.40.40:487][624]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.40.41:164][684]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.40.43:558][910]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.40.46:254][142]MaterialEditorStats: Info Base pass shader: 94 instructions
+[2017.07.29-06.40.46:254][142]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.40.46:254][142]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.29-06.40.46:254][142]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.40.47:444][250]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.40.49:899][453]LogMaterialEditor: Applying material Mat_Clay_Master
+[2017.07.29-06.40.50:416][453]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.40.50:448][453]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.40.50:465][453]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.40.50:496][453]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_Clay_Master, compiling. 
+[2017.07.29-06.40.51:471][453]TextureStreamingBuild:Display: Compiling optional shaders took 0.980 seconds.
+[2017.07.29-06.40.55:031][737]MaterialEditorStats: Info Base pass shader: 93 instructions
+[2017.07.29-06.40.55:031][737]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.40.55:031][737]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.07.29-06.40.55:031][737]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.41.04:384][540]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.41.07:629][810]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2017.07.29-06.41.07:629][810]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.41.07:629][810]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.07.29-06.41.07:629][810]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.41.09:690][989]LogMaterialEditor: Saving and Compiling material Mat_Clay_Master
+[2017.07.29-06.41.10:202][989]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.41.10:235][989]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.41.10:257][989]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.41.10:293][989]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_Clay_Master, compiling. 
+[2017.07.29-06.41.11:172][989]TextureStreamingBuild:Display: Compiling optional shaders took 0.883 seconds.
+[2017.07.29-06.41.12:544][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/Textures/Mat_Clay_Master" FILE="../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset" SILENT=true
+[2017.07.29-06.41.12:567][989]LogSavePackage: Save=15.71ms
+[2017.07.29-06.41.12:567][989]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Mat_Clay_Master888857244714789A65121CBC2E7197F6.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset'
+[2017.07.29-06.41.12:568][989]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset
+[2017.07.29-06.41.12:575][989]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2017.07.29-06.41.12:575][989]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.41.12:575][989]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.07.29-06.41.12:575][989]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.41.30:187][515]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.41.30:203][515]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.41.33:075][734]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2017.07.29-06.41.33:075][734]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.41.33:075][734]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.07.29-06.41.33:075][734]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.41.33:443][764]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.41.36:417][996]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2017.07.29-06.41.36:417][996]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.41.36:417][996]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.07.29-06.41.36:417][996]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.41.38:971][217]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.41.38:987][217]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.41.42:623][497]MaterialEditorStats: Info Base pass shader: 99 instructions
+[2017.07.29-06.41.42:623][497]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.41.42:623][497]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.07.29-06.41.42:623][497]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.41.45:857][771]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.41.49:207][ 35]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.41.49:223][ 35]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.41.52:008][251]MaterialEditorStats: Info Base pass shader: 102 instructions
+[2017.07.29-06.41.52:008][251]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.41.52:008][251]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.07.29-06.41.52:008][251]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.41.57:345][703]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.42.00:050][916]MaterialEditorStats: Info Base pass shader: 102 instructions
+[2017.07.29-06.42.00:050][916]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.42.00:050][916]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.07.29-06.42.00:050][916]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.42.05:002][335]LogMaterialEditor: Saving and Compiling material Mat_Clay_Master
+[2017.07.29-06.42.05:514][335]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.42.05:549][335]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.42.05:567][335]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.42.05:599][335]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_Clay_Master, compiling. 
+[2017.07.29-06.42.06:568][335]TextureStreamingBuild:Display: Compiling optional shaders took 0.974 seconds.
+[2017.07.29-06.42.07:938][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/Textures/Mat_Clay_Master" FILE="../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset" SILENT=true
+[2017.07.29-06.42.07:956][335]LogSavePackage: Save=15.53ms
+[2017.07.29-06.42.07:957][335]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Mat_Clay_Master104CD10147B28CEE8EA01CA842B20B7A.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset'
+[2017.07.29-06.42.07:958][335]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset
+[2017.07.29-06.42.07:964][335]MaterialEditorStats: Info Base pass shader: 102 instructions
+[2017.07.29-06.42.07:964][335]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.42.07:964][335]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.07.29-06.42.07:964][335]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.42.09:614][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Interfaces/I_Selectable" FILE="../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Interfaces/I_Selectable.uasset" SILENT=true
+[2017.07.29-06.42.09:626][375]LogSavePackage: Save=10.03ms
+[2017.07.29-06.42.09:626][375]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/I_Selectable09E2065B420F931F7D7994BF2EFCD11D.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Interfaces/I_Selectable.uasset'
+[2017.07.29-06.42.09:630][375]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Interfaces/I_Selectable.uasset
+[2017.07.29-06.42.09:669][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-06.42.09:735][375]LogSavePackage: Save=45.35ms
+[2017.07.29-06.42.09:735][375]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/TestMap1D026F63E42D2213FE8DA258E144F79B9.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-06.42.09:739][375]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-06.42.09:762][375]LogFileHelpers: Saving map 'TestMap1' took 0.130
+[2017.07.29-06.42.09:772][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/Textures/Clay_basecolor" FILE="../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Clay_basecolor.uasset" SILENT=true
+[2017.07.29-06.42.09:814][375]LogSavePackage: Save=40.42ms
+[2017.07.29-06.42.09:814][375]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Clay_basecolor187AF12E4D03B0D180F3D09783D12FAB.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Clay_basecolor.uasset'
+[2017.07.29-06.42.09:816][375]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Clay_basecolor.uasset
+[2017.07.29-06.42.09:827][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/Textures/Clay_normal" FILE="../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Clay_normal.uasset" SILENT=true
+[2017.07.29-06.42.10:258][375]LogSavePackage: Save=429.82ms
+[2017.07.29-06.42.10:258][375]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Clay_normalD5FBA2BF427640FBA79F23AEA8662F91.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Clay_normal.uasset'
+[2017.07.29-06.42.10:261][375]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Clay_normal.uasset
+[2017.07.29-06.42.10:272][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/Textures/Perlin_normal" FILE="../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Perlin_normal.uasset" SILENT=true
+[2017.07.29-06.42.10:574][375]LogSavePackage: Save=291.02ms
+[2017.07.29-06.42.10:575][375]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Perlin_normalD72C301847E616CB66733DBF3423867C.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Perlin_normal.uasset'
+[2017.07.29-06.42.10:576][375]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Perlin_normal.uasset
+[2017.07.29-06.42.27:544][814]LogMaterialEditor: Saving and Compiling material Mat_Clay_Master
+[2017.07.29-06.42.27:556][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/Textures/Mat_Clay_Master" FILE="../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset" SILENT=true
+[2017.07.29-06.42.27:567][814]LogSavePackage: Save=8.15ms
+[2017.07.29-06.42.27:567][814]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Mat_Clay_MasterB9E84CAB45A502687FCF81B95420284D.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset'
+[2017.07.29-06.42.27:567][814]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset
+[2017.07.29-06.42.28:786][902]LogRenderer: Reallocating scene render targets to support 1432x744 NumSamples 1 (Frame:1).
+[2017.07.29-06.42.31:470][180]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.29-06.43.18:149][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-06.43.18:216][979]LogSavePackage: Save=50.62ms
+[2017.07.29-06.43.18:216][979]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/TestMap154F3116C47D4935A738E7E8CE0ECE02B.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-06.43.18:218][979]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-06.43.18:238][979]LogFileHelpers: Saving map 'TestMap1' took 0.124
+[2017.07.29-06.43.18:254][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/Textures/Mat_Clay_01" FILE="../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_01.uasset" SILENT=true
+[2017.07.29-06.43.18:271][979]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_Clay_01, compiling. 
+[2017.07.29-06.43.18:626][979]TextureStreamingBuild:Display: Compiling optional shaders took 0.358 seconds.
+[2017.07.29-06.43.18:656][979]LogSavePackage: Save=12.80ms
+[2017.07.29-06.43.18:656][979]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Mat_Clay_017BE6D5194E27237AB264BD8F9A6EA3D3.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_01.uasset'
+[2017.07.29-06.43.18:657][979]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_01.uasset
+[2017.07.29-06.43.54:172][794]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-06.43.54:190][794]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.29-06.43.54:190][794]LogPlayLevel: [PlayLevel] Compiling I_Selectable before play...
+[2017.07.29-06.43.54:360][794]LogPlayLevel: PlayLevel: Blueprint regeneration took 170 ms (1 blueprints)
+[2017.07.29-06.43.54:360][794]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 10:43:54 PM)
+[2017.07.29-06.43.54:360][794]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-06.43.54:365][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004111s)
+[2017.07.29-06.43.54:365][794]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-06.43.54:366][794]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2017.07.29-06.43.54:366][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.005380s)
+[2017.07.29-06.43.54:398][794]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.07.29-06.43.54:408][794]LogInit: FAudioDevice initialized.
+[2017.07.29-06.43.54:441][794]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-06.43.54:442][794]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 0) at 2017.07.29-02.43.54
+[2017.07.29-06.43.54:443][794]LogWorld: Bringing up level for play took: 0.001312
+[2017.07.29-06.43.54:445][794]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.299
+[2017.07.29-06.44.25:140][793]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.44.27:362][969]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.44.27:381][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.29-06.44.32:777][409]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.44.32:789][409]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.44.35:235][600]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.44.35:253][600]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.29-06.44.46:745][603]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.44.46:756][603]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.44.49:369][804]MaterialEditorStats: Info Base pass shader: 102 instructions
+[2017.07.29-06.44.49:369][804]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.44.49:369][804]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.07.29-06.44.49:369][804]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.45.06:703][254]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.45.09:365][463]MaterialEditorStats: Info Base pass shader: 102 instructions
+[2017.07.29-06.45.09:365][463]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.45.09:365][463]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.07.29-06.45.09:365][463]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.45.11:087][606]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.45.12:879][742]LogMaterialEditor: Saving and Compiling material Mat_Clay_Master
+[2017.07.29-06.45.13:422][742]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.45.13:457][742]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.45.13:475][742]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.45.13:514][742]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_Clay_Master, compiling. 
+[2017.07.29-06.45.14:615][742]TextureStreamingBuild:Display: Compiling optional shaders took 1.106 seconds.
+[2017.07.29-06.45.15:946][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/Textures/Mat_Clay_Master" FILE="../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset" SILENT=true
+[2017.07.29-06.45.15:965][742]LogSavePackage: Save=16.48ms
+[2017.07.29-06.45.15:965][742]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Mat_Clay_Master5CAC4C8E4647962653BBC8AD93453AD9.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset'
+[2017.07.29-06.45.15:966][742]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset
+[2017.07.29-06.45.15:973][742]MaterialEditorStats: Info Base pass shader: 102 instructions
+[2017.07.29-06.45.15:973][742]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.07.29-06.45.15:973][742]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.07.29-06.45.15:973][742]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.29-06.46.17:768][439]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon2)
+[2017.07.29-06.46.23:160][969]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon2)
+[2017.07.29-06.46.23:925][ 41]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-06.46.23:943][ 41]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.29-06.46.23:943][ 41]LogPlayLevel: [PlayLevel] Compiling PC_CameraRig before play...
+[2017.07.29-06.46.24:027][ 41]LogPlayLevel: [PlayLevel] Compiling BP_Peon before play...
+[2017.07.29-06.46.24:163][ 41]LogPlayLevel: PlayLevel: Blueprint regeneration took 219 ms (2 blueprints)
+[2017.07.29-06.46.24:163][ 41]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 10:46:24 PM)
+[2017.07.29-06.46.24:163][ 41]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-06.46.24:167][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004194s)
+[2017.07.29-06.46.24:168][ 41]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-06.46.24:168][ 41]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2017.07.29-06.46.24:168][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.005288s)
+[2017.07.29-06.46.24:197][ 41]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.07.29-06.46.24:205][ 41]LogInit: FAudioDevice initialized.
+[2017.07.29-06.46.24:234][ 41]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-06.46.24:235][ 41]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 0) at 2017.07.29-02.46.24
+[2017.07.29-06.46.24:236][ 41]LogWorld: Bringing up level for play took: 0.001123
+[2017.07.29-06.46.24:237][ 41]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.507
+[2017.07.29-06.46.33:500][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-06.46.33:562][111]LogSavePackage: Save=45.82ms
+[2017.07.29-06.46.33:562][111]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/TestMap174C4FB024EE18F925E773087BADA1927.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-06.46.33:563][111]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-06.53.41:398][812]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.29-06.53.41:398][812]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.29-06.53.41:398][812]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.07.29-06.53.41:403][812]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.07.29-06.53.41:429][812]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.53.41:451][812]LogMaterial: Missing cached shader map for material Mat_Clay_Master, compiling. 
+[2017.07.29-06.53.41:661][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.29-06.53.41:998][812]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_Clay_01, compiling. 
+[2017.07.29-06.53.44:127][812]TextureStreamingBuild:Display: Compiling optional shaders took 2.133 seconds.
+[2017.07.29-06.53.47:243][ 15]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2017.07.29-06.53.47:243][ 15]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.29-06.53.47:243][ 15]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.07.29-06.53.47:295][ 15]LogSavePackage: Save=18.73ms
+[2017.07.29-06.53.47:295][ 15]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/DetailTexturing852884EF4D48E4ED01FF0F8D7DAA48DC.tmp' to '../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/DetailTexturing.uasset'
+[2017.07.29-06.53.47:297][ 15]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/DetailTexturing.uasset
+[2017.07.29-06.53.47:312][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-06.53.47:408][ 15]LogSavePackage: Save=88.72ms
+[2017.07.29-06.53.47:408][ 15]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/BP_PeonFC2CD4FC4C8023D383F8D0ABD481DB63.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-06.53.47:410][ 15]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-06.53.47:468][ 15]LogSavePackage: Save=48.50ms
+[2017.07.29-06.53.47:468][ 15]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/PC_CameraRigDFAADE09475049606D245A98725F7129.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset'
+[2017.07.29-06.53.47:470][ 15]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset
+[2017.07.29-06.53.47:486][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/Textures/Mat_Clay_01" FILE="../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_01.uasset" SILENT=true
+[2017.07.29-06.53.47:504][ 15]LogSavePackage: Save=11.83ms
+[2017.07.29-06.53.47:504][ 15]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Mat_Clay_01F3B3AB6648E67F884DA1B6AAE5709C2C.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_01.uasset'
+[2017.07.29-06.53.47:506][ 15]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_01.uasset
+[2017.07.29-06.53.47:520][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/Textures/Mat_Clay_Master" FILE="../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset" SILENT=true
+[2017.07.29-06.53.47:543][ 15]LogSavePackage: Save=17.18ms
+[2017.07.29-06.53.47:543][ 15]LogSavePackage: Moving '../../../../../Projects/LD39/Saved/Mat_Clay_Master16911CC44CB6ECD4E04D8AAC4B911DC5.tmp' to '../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset'
+[2017.07.29-06.53.47:545][ 15]LogSavePackage:Display: Finished SavePackage ../../../../../Projects/LD39/Content/LD39Custom/RawResources/Textures/Mat_Clay_Master.uasset
+[2017.07.29-06.53.49:557][244]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.29-06.53.49:559][244]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.29-06.53.49:812][245]Cmd: QUIT_EDITOR
+[2017.07.29-06.53.50:639][245]LogExit: Preparing to exit.
+[2017.07.29-06.53.51:407][245]LogDirectoryWatcher: A directory notification for 'F:/Projects/LD39/Content/' was aborted.
+[2017.07.29-06.53.51:496][245]LogExit: Editor shut down
+[2017.07.29-06.53.51:522][245]LogExit: Transaction tracking system shut down
+[2017.07.29-06.53.51:696][245]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.29-06.53.51:697][245]LogExit: Object subsystem successfully closed.
+[2017.07.29-06.53.51:727][245]LogD3D11RHI: Shutdown
+[2017.07.29-06.53.51:727][245]LogD3D11RHI: CleanupD3DDevice
+[2017.07.29-06.53.51:852][245]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.29-06.53.51:860][245]LogModuleManager: Shutting down and abandoning module MaterialEditor (536)
+[2017.07.29-06.53.51:860][245]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.07.29-06.53.51:860][245]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2017.07.29-06.53.51:860][245]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2017.07.29-06.53.51:861][245]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2017.07.29-06.53.51:861][245]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2017.07.29-06.53.51:861][245]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2017.07.29-06.53.51:861][245]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2017.07.29-06.53.51:861][245]LogDirectoryWatcher: A directory notification for 'F:/UnrealEngine/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2017.07.29-06.53.51:867][245]LogDirectoryWatcher: A directory notification for 'F:/Projects/LD39/Content/Collections/' was aborted.
+[2017.07.29-06.53.51:867][245]LogDirectoryWatcher: A directory notification for 'F:/Projects/LD39/Content/Developers/Robby/Collections/' was aborted.
+[2017.07.29-06.53.51:867][245]LogDirectoryWatcher: A directory notification for 'F:/Projects/LD39/Saved/Collections/' was aborted.
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2017.07.29-06.53.51:867][245]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module Media (475)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2017.07.29-06.53.51:868][245]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2017.07.29-06.53.52:048][245]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2017.07.29-06.53.52:049][245]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2017.07.29-06.53.52:049][245]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2017.07.29-06.53.52:049][245]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2017.07.29-06.53.52:112][245]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2017.07.29-06.53.52:112][245]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2017.07.29-06.53.52:112][245]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2017.07.29-06.53.52:112][245]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2017.07.29-06.53.52:112][245]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2017.07.29-06.53.52:112][245]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2017.07.29-06.53.52:112][245]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2017.07.29-06.53.52:112][245]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2017.07.29-06.53.52:112][245]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2017.07.29-06.53.52:112][245]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2017.07.29-06.53.52:122][245]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2017.07.29-06.53.52:124][245]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2017.07.29-06.53.52:124][245]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2017.07.29-06.53.52:124][245]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2017.07.29-06.53.52:124][245]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2017.07.29-06.53.52:124][245]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2017.07.29-06.53.52:124][245]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2017.07.29-06.53.52:125][245]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2017.07.29-06.53.52:125][245]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2017.07.29-06.53.52:125][245]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2017.07.29-06.53.52:125][245]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2017.07.29-06.53.52:125][245]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2017.07.29-06.53.52:125][245]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2017.07.29-06.53.52:125][245]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2017.07.29-06.53.52:125][245]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2017.07.29-06.53.52:125][245]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2017.07.29-06.53.52:125][245]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2017.07.29-06.53.52:125][245]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2017.07.29-06.53.52:125][245]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2017.07.29-06.53.52:125][245]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2017.07.29-06.53.52:190][245]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2017.07.29-06.53.52:190][245]LogModuleManager: Shutting down and abandoning module SubstanceEditor (328)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2017.07.29-06.53.52:191][245]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2017.07.29-06.53.52:192][245]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2017.07.29-06.53.52:192][245]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2017.07.29-06.53.52:192][245]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2017.07.29-06.53.52:193][245]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2017.07.29-06.53.52:193][245]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2017.07.29-06.53.52:193][245]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2017.07.29-06.53.52:193][245]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
+[2017.07.29-06.53.52:193][245]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
+[2017.07.29-06.53.52:193][245]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2017.07.29-06.53.52:293][245]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2017.07.29-06.53.52:394][245]LogModuleManager: Shutting down and abandoning module SubstanceCore (234)
+[2017.07.29-06.53.52:395][245]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.29-06.53.52:395][245]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.29-06.53.52:395][245]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.29-06.53.52:395][245]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.29-06.53.52:395][245]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.29-06.53.52:395][245]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.29-06.53.52:397][245]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.29-06.53.52:398][245]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.29-06.53.52:398][245]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.29-06.53.52:398][245]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.29-06.53.52:400][245]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.29-06.53.52:400][245]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.29-06.53.52:400][245]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.29-06.53.52:400][245]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.29-06.53.52:400][245]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.29-06.53.52:400][245]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.29-06.53.52:575][245]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.29-06.53.52:575][245]LogDirectoryWatcher: A directory notification for '../../../../../Projects/LD39/Content/' was aborted.
+[2017.07.29-06.53.52:575][245]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.29-06.53.52:575][245]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.29-06.53.52:579][245]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.29-06.53.52:583][245]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.29-06.53.52:583][245]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.29-06.53.52:583][245]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.29-06.53.52:583][245]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.29-06.53.52:583][245]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.29-06.53.52:583][245]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.29-06.53.52:583][245]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.29-06.53.52:583][245]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.29-06.53.52:646][245]LogDerivedDataCache: Shutdown
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.29-06.53.52:646][245]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.29-06.53.52:647][245]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.29-06.53.52:648][245]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.29-06.53.52:648][245]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.29-06.53.52:648][245]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.29-06.53.52:648][245]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAA5B6F29-42E8-AEAC-37B2-4B80651980F8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=9704fd6c4ad9f92ea97cdeaa1f1b1902%7Cabc6c7a2a0234cce8418fd6092aac18c%7Cb12ee2c1-8693-4912-ab17-7d8161a47851&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.29-06.53.52:670][245]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.29-06.53.52:672][245]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.29-06.53.52:672][245]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.29-06.53.52:672][245]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.29-06.53.52:672][245]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.29-06.53.52:672][245]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.29-06.53.52:672][245]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.29-06.53.52:672][245]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.29-06.53.52:672][245]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.29-06.53.52:677][245]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.29-06.53.52:677][245]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.29-06.53.52:677][245]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.29-06.53.52:677][245]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.29-06.53.52:677][245]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.29-06.53.52:677][245]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.29-06.53.52:677][245]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.29-06.53.52:677][245]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.29-06.53.52:677][245]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.29-06.53.52:677][245]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.29-06.53.52:679][245]LogExit: Exiting.
+[2017.07.29-06.53.52:695][245]Log file closed, 07/29/17 02:53:52
