@@ -1293,3 +1293,48 @@ Script call stack:
 [2017.07.29-03.18.51:670][285]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap1D752BDA342871CACAD6F89AC04DDCA38.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
 [2017.07.29-03.18.51:678][285]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
 [2017.07.29-03.18.51:713][285]LogFileHelpers: Saving map 'TestMap1' took 2.307
+[2017.07.29-03.23.03:466][877]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-03.23.06:362][974]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-03.23.06:400][974]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.29-03.23.06:400][974]LogPlayLevel: [PlayLevel] Compiling PC_CameraRig before play...
+[2017.07.29-03.23.06:560][974]LogPlayLevel: PlayLevel: Blueprint regeneration took 159 ms (1 blueprints)
+[2017.07.29-03.23.06:560][974]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 7:23:06 PM)
+[2017.07.29-03.23.06:561][974]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-03.23.06:567][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006200s)
+[2017.07.29-03.23.06:568][974]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-03.23.06:568][974]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2017.07.29-03.23.06:568][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.007647s)
+[2017.07.29-03.23.06:611][974]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-03.23.06:624][974]LogInit: FAudioDevice initialized.
+[2017.07.29-03.23.06:657][974]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-03.23.06:659][974]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-23.23.06
+[2017.07.29-03.23.06:659][974]LogWorld: Bringing up level for play took: 0.001342
+[2017.07.29-03.23.06:661][974]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.439
+[2017.07.29-03.23.26:766][592]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.29-03.23.34:381][800]BlueprintLog: New page: Compile PC_CameraRig
+[2017.07.29-03.23.35:649][831]LogSavePackage: Save=41.28ms
+[2017.07.29-03.23.35:649][831]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/PC_CameraRig438C49F04395BBC0C7CAAAB9C2AA89C4.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset'
+[2017.07.29-03.23.35:653][831]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset
+[2017.07.29-03.25.52:090][310]BlueprintLog: New page: Compile BP_RtsCameraRig
+[2017.07.29-03.25.52:927][325]LogSavePackage: Save=42.35ms
+[2017.07.29-03.25.52:927][325]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_RtsCameraRigE218CB44482904AB3AF7479165822B7A.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset'
+[2017.07.29-03.25.52:929][325]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset
+[2017.07.29-03.26.19:752][183]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-03.26.20:699][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-03.26.20:791][199]LogSavePackage: Save=80.68ms
+[2017.07.29-03.26.20:791][199]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon790369DE458954EAA2ADAA8F54774DD7.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-03.26.20:795][199]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-03.28.34:639][ 41]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-03.28.35:377][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-03.28.35:466][ 50]LogSavePackage: Save=84.05ms
+[2017.07.29-03.28.35:466][ 50]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_PeonAFD55CE04D89D35EB05E50A998455137.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-03.28.35:467][ 50]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-03.30.04:738][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-03.30.04:818][764]LogSavePackage: Save=75.05ms
+[2017.07.29-03.30.04:818][764]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon9F53B0A74C8D6754CDBE4881740D9CC9.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-03.30.04:820][764]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-03.30.35:381][662]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-03.30.37:649][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.29-03.30.37:780][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.29-03.30.37:983][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.29-03.30.38:147][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
