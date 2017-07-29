@@ -1,0 +1,1340 @@
+﻿Log file open, 07/28/17 21:37:37
+LogInit:Display: Running engine for game: LD39
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(427543383) SRandInit(427543383).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.112383
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.29-01.37.37:944][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.29-01.37.37:944][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.29-01.37.37:957][  0]LogInit: Computer: DESKTOP-MVS60O6
+[2017.07.29-01.37.37:957][  0]LogInit: User: cisze
+[2017.07.29-01.37.37:957][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.07.29-01.37.37:957][  0]LogInit: High frequency timer resolution =2.343772 MHz
+[2017.07.29-01.37.37:957][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.07.29-01.37.37:957][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.29-01.37.37:957][  0]LogMemory: Process Physical Memory: 272.52 MB used, 272.52 MB peak
+[2017.07.29-01.37.37:957][  0]LogMemory: Process Virtual Memory: 266.32 MB used, 266.32 MB peak
+[2017.07.29-01.37.37:957][  0]LogMemory: Physical Memory: 5724.36 MB used,  2350.70 MB free, 8075.06 MB total
+[2017.07.29-01.37.37:957][  0]LogMemory: Virtual Memory: 642.02 MB used,  2350.70 MB free, 134217728.00 MB total
+[2017.07.29-01.37.38:041][  0]LogInit: Using OS detected language (en-US).
+[2017.07.29-01.37.38:041][  0]LogInit: Using OS detected locale (en-US).
+[2017.07.29-01.37.38:044][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.29-01.37.39:295][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.29-01.37.39:353][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
+[2017.07.29-01.37.39:353][  0]LogD3D11RHI:       2020/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.29-01.37.39:364][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.07.29-01.37.39:364][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.07.29-01.37.39:368][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.29-01.37.39:368][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.29-01.37.39:368][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.29-01.37.39:379][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.29-01.37.39:379][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.29-01.37.39:379][  0]LogWindows: EnumDisplayDevices:
+[2017.07.29-01.37.39:379][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.07.29-01.37.39:380][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.07.29-01.37.39:380][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.07.29-01.37.39:380][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.07.29-01.37.39:380][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
+[2017.07.29-01.37.39:380][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.07.29-01.37.39:380][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.07.29-01.37.39:380][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.29-01.37.39:420][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.29-01.37.39:442][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.29-01.37.39:443][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Projects/LD39/Intermediate/Shaders/WorkingDirectory/5900/).
+[2017.07.29-01.37.39:443][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cisze/AppData/Local/Temp/UnrealShaderWorkingDir/B80A9B6A41A5EC2BDDC9618449B9AC1D/'.
+[2017.07.29-01.37.39:443][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.29-01.37.42:117][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.29-01.37.42:196][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.29-01.37.42:270][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.29-01.37.42:355][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.29-01.37.42:429][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.29-01.37.42:544][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.29-01.37.42:635][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.29-01.37.42:715][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.29-01.37.42:776][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.29-01.37.42:843][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.29-01.37.42:905][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.29-01.37.42:965][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.29-01.37.43:028][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.29-01.37.43:085][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.29-01.37.43:146][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.29-01.37.43:317][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.29-01.37.43:317][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.29-01.37.43:391][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.29-01.37.43:502][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.29-01.37.43:543][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.29-01.37.43:614][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.29-01.37.43:681][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.29-01.37.43:739][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.29-01.37.43:794][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.29-01.37.43:794][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.29-01.37.44:438][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.29-01.37.44:573][  0]LogDerivedDataCache: Loaded boot cache 0.13s 90MB C:/Users/cisze/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.29-01.37.44:573][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/cisze/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.29-01.37.44:574][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projects/LD39/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.29-01.37.44:574][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.29-01.37.44:574][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Projects/LD39/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.29-01.37.44:574][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.29-01.37.44:593][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.29-01.37.44:605][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cisze/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.29-01.37.44:623][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.29-01.37.44:624][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.29-01.37.44:624][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.29-01.37.44:624][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.29-01.37.45:009][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.29-01.37.45:122][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.29-01.37.45:313][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.29-01.37.45:369][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.29-01.37.45:432][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.29-01.37.45:432][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.29-01.37.45:432][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.29-01.37.46:200][  0]LogNetVersion: LD39 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 614156085)
+[2017.07.29-01.37.46:278][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2017.07.29-01.37.46:356][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.046442 seconds
+[2017.07.29-01.37.46:363][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.29-01.37.46:363][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.07.29-01.37.46:363][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.29-01.37.46:449][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.29-01.37.49:541][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.29-01.37.49:590][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.29-01.37.50:236][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.29-01.37.50:750][  0]SourceControl: Info Source control is disabled
+[2017.07.29-01.37.50:751][  0]SourceControl: Info Source control is disabled
+[2017.07.29-01.37.50:851][  0]SourceControl: Info Source control is disabled
+[2017.07.29-01.37.50:935][  0]SourceControl: Info Source control is disabled
+[2017.07.29-01.37.51:843][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.29-01.37.52:595][  0]LogEngine: Initializing Engine...
+[2017.07.29-01.37.52:595][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.29-01.37.52:867][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.29-01.37.52:867][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.29-01.37.53:032][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.29-01.37.53:041][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-01.37.53:088][  0]LogInit: FAudioDevice initialized.
+[2017.07.29-01.37.53:152][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/cisze/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.29-01.37.53:175][  0]LogInit: Texture streaming: Enabled
+[2017.07.29-01.37.53:296][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.29-01.37.53:558][  0]LogInit: Transaction tracking system initialized
+[2017.07.29-01.37.53:940][  0]BlueprintLog: New page: Editor Load
+[2017.07.29-01.37.55:038][  0]LocalizationService: Info Localization service is disabled
+[2017.07.29-01.37.55:847][  0]LogConsoleResponse:Display: 
+[2017.07.29-01.37.56:057][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.29-01.37.56:057][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/LD39/Content/' took 0.01s
+[2017.07.29-01.37.56:057][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.29-01.37.57:264][  0]SourceControl: Info Source control is disabled
+[2017.07.29-01.37.57:264][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.29-01.37.57:265][  0]LightingResults: New page: Lighting Build
+[2017.07.29-01.37.57:313][  0]MapCheck: New page: Map Check
+[2017.07.29-01.37.57:313][  0]LightingResults: New page: Lighting Build
+[2017.07.29-01.37.57:563][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.29-01.37.57:564][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.29-01.37.57:570][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.29-01.37.57:600][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.29-01.37.57:655][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.682ms to complete.
+[2017.07.29-01.37.57:655][  0]LogFileHelpers: Loading map 'Template_Default' took 0.391
+[2017.07.29-01.37.57:738][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.29-01.37.57:739][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.29-01.37.57:865][  0]LogCollectionManager: Loaded 0 collections in 0.001804 seconds
+[2017.07.29-01.37.57:954][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/LD39/Saved/Collections/' took 0.01s
+[2017.07.29-01.37.57:954][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/LD39/Content/Developers/cisze/Collections/' took 0.01s
+[2017.07.29-01.37.57:955][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/LD39/Content/Collections/' took 0.01s
+[2017.07.29-01.37.57:955][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.29-01.37.57:968][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2329 classes and 491 folders.
+[2017.07.29-01.37.58:048][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.29-01.37.58:092][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.29-01.37.58:146][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.07.29-01.37.58:193][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.29-01.37.58:201][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.29-01.37.58:205][  0]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.29-01.37.58:222][  0]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.29-01.37.58:402][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.07.29-01.37.58:595][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.29-01.37.58:674][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.07.29-01.37.58:674][  0]LogLoad: (Engine Initialization) Total time: 22.74 seconds
+[2017.07.29-01.37.58:674][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.07.29-01.37.58:674][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.29-01.37.58:722][  0]LogOcInput: OculusInput pre-init called
+[2017.07.29-01.37.58:722][  0]LogHMD: Starting GearVRController plugin
+[2017.07.29-01.37.58:747][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.29-01.37.58:782][  1]LogAssetRegistry: Asset discovery search completed in 12.5259 seconds
+[2017.07.29-01.37.58:784][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.07.29-01.37.58:784][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2017.07.29-01.37.59:687][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-01.38.27:706][264]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.29-01.39.04:142][906]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.29-01.39.05:028][935]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LD39
+[2017.07.29-01.39.05:028][935]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.29-01.39.05:028][935]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.07.29-01.39.05:028][935]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.29-01.39.05:053][936]LogTemp: BranchPath = DESKTOP-MVS60O6/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-MVS60O6/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.07.29-01.39.05:206][942]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\cisze\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.07.29-01.41.45:380][547]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.29-01.42.13:105][149]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.07.29-01.42.13:917][149]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.29-01.42.14:161][149]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:1).
+[2017.07.29-01.42.17:081][210]LogSlate: Took 0.020898 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.29-01.44.27:574][768]BlueprintLog: New page: Compile BP_RtsCameraRig
+[2017.07.29-01.44.28:227][775]LogSavePackage: Save=23.80ms
+[2017.07.29-01.44.28:227][775]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_RtsCameraRig601F850D4836F33715A479BE29DBBFAD.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset'
+[2017.07.29-01.44.28:230][775]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset
+[2017.07.29-01.44.29:236][798]LogSlate: Took 0.004616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.29-01.46.04:449][629]BlueprintLog: New page: Compile BP_RtsCameraRig
+[2017.07.29-01.47.23:341][480]BlueprintLog: New page: Compile BP_RtsCameraRig
+[2017.07.29-01.47.24:157][498]LogSavePackage: Save=35.94ms
+[2017.07.29-01.47.24:157][498]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_RtsCameraRigFDBB591045F4712718C0CCBDC5E41B5F.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset'
+[2017.07.29-01.47.24:161][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset
+[2017.07.29-01.47.30:698][739]LogEditorViewport: Clicking on Actor (LMB): BP_RtsCameraRig_C (BP_RtsCameraRig)
+[2017.07.29-01.47.36:289][955]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.29-01.47.37:394][995]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-01.47.37:447][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-01.47.37:453][995]PIE: New page: PIE session: Untitled_1 (Jul 28, 2017, 5:47:37 PM)
+[2017.07.29-01.47.37:454][995]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.07.29-01.47.37:460][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005604s)
+[2017.07.29-01.47.37:461][995]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.29-01.47.37:462][995]LogPlayLevel: PIE: World Init took: (0.001657s)
+[2017.07.29-01.47.37:462][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008428s)
+[2017.07.29-01.47.37:502][995]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-01.47.37:517][995]LogInit: FAudioDevice initialized.
+[2017.07.29-01.47.37:568][995]LogLoad: Game class is 'GameModeBase'
+[2017.07.29-01.47.37:584][995]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.07.28-21.47.37
+[2017.07.29-01.47.37:586][995]LogWorld: Bringing up level for play took: 0.003814
+[2017.07.29-01.47.37:655][995]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.07.29-01.47.37:660][995]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.56
+[2017.07.29-01.47.55:883][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-01.47.56:602][903]LogEditorViewport: Clicking on Actor (LMB): BP_RtsCameraRig_C (BP_RtsCameraRig)
+[2017.07.29-01.48.05:203][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-01.48.06:012][228]LogEditorViewport: Clicking on Actor (LMB): BP_RtsCameraRig_C (BP_RtsCameraRig)
+[2017.07.29-01.48.06:785][251]LogEditorViewport: Clicking on Actor (LMB): BP_RtsCameraRig_C (BP_RtsCameraRig)
+[2017.07.29-01.48.09:909][359]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-01.48.09:927][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-01.48.09:927][359]PIE: New page: PIE session: Untitled_1 (Jul 28, 2017, 5:48:09 PM)
+[2017.07.29-01.48.09:928][359]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.07.29-01.48.09:930][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002107s)
+[2017.07.29-01.48.09:930][359]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.29-01.48.09:930][359]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2017.07.29-01.48.09:931][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003272s)
+[2017.07.29-01.48.10:001][359]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-01.48.10:011][359]LogInit: FAudioDevice initialized.
+[2017.07.29-01.48.10:046][359]LogLoad: Game class is 'GameModeBase'
+[2017.07.29-01.48.10:047][359]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.07.28-21.48.10
+[2017.07.29-01.48.10:048][359]LogWorld: Bringing up level for play took: 0.001410
+[2017.07.29-01.48.10:049][359]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.949
+[2017.07.29-01.49.25:978][181]BlueprintLog: New page: Compile BP_RtsCameraRig
+[2017.07.29-01.49.27:049][196]LogSavePackage: Save=36.00ms
+[2017.07.29-01.49.27:049][196]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_RtsCameraRig69152B8F4559E99A0DAE5F85BA451CFF.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset'
+[2017.07.29-01.49.27:052][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset
+[2017.07.29-01.49.27:470][203]LogSavePackage: Save=34.59ms
+[2017.07.29-01.49.27:470][203]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_RtsCameraRig1118EFE54C0B05E776ED0DA5B26B6A75.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset'
+[2017.07.29-01.49.27:472][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset
+[2017.07.29-01.53.24:359][344]BlueprintLog: New page: Compile BP_RtsCameraRig
+[2017.07.29-01.53.28:515][462]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-01.53.28:532][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-01.53.28:533][462]PIE: New page: PIE session: Untitled_1 (Jul 28, 2017, 5:53:28 PM)
+[2017.07.29-01.53.28:533][462]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.07.29-01.53.28:536][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003495s)
+[2017.07.29-01.53.28:537][462]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.29-01.53.28:537][462]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2017.07.29-01.53.28:537][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004515s)
+[2017.07.29-01.53.28:606][462]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-01.53.28:617][462]LogInit: FAudioDevice initialized.
+[2017.07.29-01.53.28:662][462]LogLoad: Game class is 'GameModeBase'
+[2017.07.29-01.53.28:667][462]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.07.28-21.53.28
+[2017.07.29-01.53.28:669][462]LogWorld: Bringing up level for play took: 0.004249
+[2017.07.29-01.53.28:672][462]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.429
+[2017.07.29-01.53.57:641][302]LogSlate: Took 0.008154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.07.29-01.54.33:011][163]BlueprintLog: New page: Compile BP_RtsCameraRig
+[2017.07.29-01.54.34:041][176]LogSavePackage: Save=42.43ms
+[2017.07.29-01.54.34:041][176]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_RtsCameraRig3454E2A14C988AB77D6F56857CC07BBE.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset'
+[2017.07.29-01.54.34:045][176]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset
+[2017.07.29-01.54.42:603][393]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-01.54.42:622][393]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.29-01.54.42:622][393]LogPlayLevel: [PlayLevel] Compiling BP_RtsCameraRig before play...
+[2017.07.29-01.54.42:779][393]LogPlayLevel: PlayLevel: Blueprint regeneration took 156 ms (1 blueprints)
+[2017.07.29-01.54.42:779][393]PIE: New page: PIE session: Untitled_1 (Jul 28, 2017, 5:54:42 PM)
+[2017.07.29-01.54.42:779][393]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.07.29-01.54.42:781][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002268s)
+[2017.07.29-01.54.42:782][393]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.29-01.54.42:783][393]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2017.07.29-01.54.42:783][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003903s)
+[2017.07.29-01.54.42:843][393]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-01.54.42:854][393]LogInit: FAudioDevice initialized.
+[2017.07.29-01.54.42:888][393]LogLoad: Game class is 'GameModeBase'
+[2017.07.29-01.54.42:889][393]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.07.28-21.54.42
+[2017.07.29-01.54.42:890][393]LogWorld: Bringing up level for play took: 0.001419
+[2017.07.29-01.54.42:891][393]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.21
+[2017.07.29-01.55.45:159][120]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.29-01.56.59:904][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-01.56.59:934][758]LogSavePackage: Save=26.92ms
+[2017.07.29-01.56.59:935][758]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon3A64820D457FD791C79F2DA122C258E8.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-01.56.59:938][758]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-01.56.59:995][758]LogSavePackage: Save=48.06ms
+[2017.07.29-01.56.59:995][758]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_RtsCameraRigB6B00AF04AA98CC50C7ECAA122A28A94.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset'
+[2017.07.29-01.56.59:999][758]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset
+[2017.07.29-01.57.17:671][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-01.57.17:768][758]LogSavePackage: Save=54.69ms
+[2017.07.29-01.57.17:768][758]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap1ADE359BC4EB3AEC1C1ED7FB10100B15C.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-01.57.17:772][758]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-01.57.17:804][758]LogFileHelpers: Saving map 'TestMap1' took 0.740
+[2017.07.29-01.57.34:707][317]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.34:863][317]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.39:471][418]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.39:486][418]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-01.57.42:622][482]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.07.29-01.57.42:622][482]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.29-01.57.42:622][482]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.29-01.57.44:272][512]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.44:294][512]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-01.57.47:636][575]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.07.29-01.57.47:636][575]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.29-01.57.47:636][575]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.29-01.57.47:874][578]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.47:905][578]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-01.57.48:840][595]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.48:870][595]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-01.57.51:895][650]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.07.29-01.57.51:895][650]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.29-01.57.51:895][650]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.29-01.57.56:753][702]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.56:811][702]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.56:849][702]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.56:952][702]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.58:558][702]TextureStreamingBuild:Display: Compiling optional shaders took 1.622 seconds.
+[2017.07.29-01.57.58:768][702]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.29-01.57.59:778][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-01.58.12:773][ 23]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-01.58.13:910][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-01.58.13:962][ 41]LogSavePackage: Save=32.41ms
+[2017.07.29-01.58.13:962][ 41]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon295EE697494A528EF8B8738EA313BAC0.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-01.58.13:965][ 41]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-01.58.21:014][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-01.58.24:024][387]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-01.58.44:510][  8]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-01.58.45:601][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-01.58.45:629][ 24]LogSavePackage: Save=24.83ms
+[2017.07.29-01.58.45:629][ 24]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_PeonD7DEBF314035443088853BB89926C73C.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-01.58.45:633][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-01.59.31:796][185]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-01.59.32:782][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-01.59.32:824][200]LogSavePackage: Save=39.19ms
+[2017.07.29-01.59.32:824][200]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_PeonAF21EAB5441BCBF003DE26A1EDB42589.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-01.59.32:828][200]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-01.59.35:907][308]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-01.59.35:928][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-01.59.35:929][308]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 5:59:35 PM)
+[2017.07.29-01.59.35:929][308]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-01.59.35:932][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002955s)
+[2017.07.29-01.59.35:933][308]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-01.59.35:933][308]LogPlayLevel: PIE: World Init took: (0.001408s)
+[2017.07.29-01.59.35:933][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.004737s)
+[2017.07.29-01.59.35:973][308]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-01.59.35:985][308]LogInit: FAudioDevice initialized.
+[2017.07.29-01.59.36:020][308]LogLoad: Game class is 'GameModeBase'
+[2017.07.29-01.59.36:023][308]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-21.59.36
+[2017.07.29-01.59.36:034][308]LogWorld: Bringing up level for play took: 0.013059
+[2017.07.29-01.59.36:035][308]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 0.935
+[2017.07.29-02.00.24:193][966]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.29-02.00.43:068][379]BlueprintLog: New page: Compile GM_LD39
+[2017.07.29-02.00.44:316][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Logic/GM_LD39" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset" SILENT=true
+[2017.07.29-02.00.44:338][402]LogSavePackage: Save=17.50ms
+[2017.07.29-02.00.44:338][402]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/GM_LD39727CA48E4037BF622142DBB19A0B5B70.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset'
+[2017.07.29-02.00.44:341][402]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset
+[2017.07.29-02.01.19:224][188]BlueprintLog: New page: Compile PC_CameraRig
+[2017.07.29-02.01.20:084][199]LogSavePackage: Save=17.52ms
+[2017.07.29-02.01.20:084][199]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/PC_CameraRigC9F548A248320FDCDB7FE184BFAAB1B1.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset'
+[2017.07.29-02.01.20:088][199]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset
+[2017.07.29-02.01.22:751][287]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.01.22:774][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.01.22:775][287]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:01:22 PM)
+[2017.07.29-02.01.22:775][287]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.01.22:777][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002766s)
+[2017.07.29-02.01.22:779][287]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.01.22:779][287]LogPlayLevel: PIE: World Init took: (0.001309s)
+[2017.07.29-02.01.22:779][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.004439s)
+[2017.07.29-02.01.22:825][287]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.01.22:839][287]LogInit: FAudioDevice initialized.
+[2017.07.29-02.01.22:877][287]LogLoad: Game class is 'GameModeBase'
+[2017.07.29-02.01.22:879][287]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.01.22
+[2017.07.29-02.01.22:879][287]LogWorld: Bringing up level for play took: 0.001478
+[2017.07.29-02.01.22:880][287]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.22
+[2017.07.29-02.01.30:597][629]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-02.01.32:158][696]Cmd: DELETE
+[2017.07.29-02.01.32:158][696]Cmd: ACTOR DELETE
+[2017.07.29-02.01.32:175][696]LogEditorActor: Deleted Actor: BP_Peon_C
+[2017.07.29-02.01.32:219][696]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2017.07.29-02.01.33:615][759]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.01.33:640][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.01.33:640][759]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:01:33 PM)
+[2017.07.29-02.01.33:640][759]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.01.33:642][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001962s)
+[2017.07.29-02.01.33:643][759]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.01.33:643][759]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2017.07.29-02.01.33:643][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.003303s)
+[2017.07.29-02.01.33:686][759]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.01.33:697][759]LogInit: FAudioDevice initialized.
+[2017.07.29-02.01.33:736][759]LogLoad: Game class is 'GameModeBase'
+[2017.07.29-02.01.33:738][759]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.01.33
+[2017.07.29-02.01.33:738][759]LogWorld: Bringing up level for play took: 0.001395
+[2017.07.29-02.01.33:739][759]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 0.639
+[2017.07.29-02.02.04:844][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.02.06:414][750]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.29-02.02.18:039][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-02.02.18:136][116]LogSavePackage: Save=47.81ms
+[2017.07.29-02.02.18:136][116]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap1F9E3B791462B7A81A54F78BCFF9C0274.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-02.02.18:141][116]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-02.02.18:181][116]LogFileHelpers: Saving map 'TestMap1' took 0.214
+[2017.07.29-02.02.18:218][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/TestMats/Mat_TestMat_01" FILE="../../../../../../Projects/LD39/Content/LD39Custom/RawResources/TestMats/Mat_TestMat_01.uasset" SILENT=true
+[2017.07.29-02.02.18:239][116]LogSavePackage: Save=18.98ms
+[2017.07.29-02.02.18:240][116]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/Mat_TestMat_01B0D9C4DF4C01C4C63286B489ABBC4CDD.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/RawResources/TestMats/Mat_TestMat_01.uasset'
+[2017.07.29-02.02.18:243][116]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/RawResources/TestMats/Mat_TestMat_01.uasset
+[2017.07.29-02.02.29:471][536]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.29-02.02.33:035][678]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.02.33:065][678]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.02.33:066][678]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:02:33 PM)
+[2017.07.29-02.02.33:066][678]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.02.33:068][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002094s)
+[2017.07.29-02.02.33:069][678]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.02.33:069][678]LogPlayLevel: PIE: World Init took: (0.001529s)
+[2017.07.29-02.02.33:070][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.003897s)
+[2017.07.29-02.02.33:115][678]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.02.33:125][678]LogInit: FAudioDevice initialized.
+[2017.07.29-02.02.33:163][678]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.02.33:165][678]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.02.33
+[2017.07.29-02.02.33:165][678]LogWorld: Bringing up level for play took: 0.001394
+[2017.07.29-02.02.33:166][678]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 0.066
+[2017.07.29-02.02.42:702][100]LogEditorViewport: Clicking on Actor (LMB): BP_RtsCameraRig_C (BP_RtsCameraRig)
+[2017.07.29-02.02.45:009][179]Cmd: DELETE
+[2017.07.29-02.02.45:009][179]Cmd: ACTOR DELETE
+[2017.07.29-02.02.45:010][179]LogEditorActor: Deleted Actor: BP_RtsCameraRig_C
+[2017.07.29-02.02.45:105][179]LogEditorActor: Deleted 1 Actors (0.096 secs)
+[2017.07.29-02.02.50:885][404]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.02.50:914][404]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.02.50:914][404]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:02:50 PM)
+[2017.07.29-02.02.50:914][404]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.02.50:918][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004020s)
+[2017.07.29-02.02.50:919][404]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.02.50:919][404]LogPlayLevel: PIE: World Init took: (0.001131s)
+[2017.07.29-02.02.50:919][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.005457s)
+[2017.07.29-02.02.50:960][404]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.02.50:971][404]LogInit: FAudioDevice initialized.
+[2017.07.29-02.02.51:009][404]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.02.51:011][404]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.02.51
+[2017.07.29-02.02.51:011][404]LogWorld: Bringing up level for play took: 0.001460
+[2017.07.29-02.02.51:022][404]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.078
+[2017.07.29-02.02.53:538][527]LogBlueprintUserMessages: [BP_Peon_241] Clickity
+[2017.07.29-02.02.54:159][558]LogBlueprintUserMessages: [BP_Peon_241] Clickity
+[2017.07.29-02.02.54:340][567]LogBlueprintUserMessages: [BP_Peon_241] Clickity
+[2017.07.29-02.02.54:501][575]LogBlueprintUserMessages: [BP_Peon_241] Clickity
+[2017.07.29-02.02.54:663][583]LogBlueprintUserMessages: [BP_Peon_241] Clickity
+[2017.07.29-02.02.54:803][590]LogBlueprintUserMessages: [BP_Peon_241] Clickity
+[2017.07.29-02.02.54:943][597]LogBlueprintUserMessages: [BP_Peon_241] Clickity
+[2017.07.29-02.02.58:076][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.03.11:484][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.03.12:479][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.03.36:871][361]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-02.03.42:117][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.03.47:134][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.03.47:679][808]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.07.29-02.03.48:625][860]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.29-02.03.51:549][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.04.34:367][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.04.35:175][586]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.29-02.04.35:719][607]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-02.05.16:610][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-02.05.16:700][128]LogSavePackage: Save=46.72ms
+[2017.07.29-02.05.16:700][128]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap181569B874336FF51753C29A549C8AD1F.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-02.05.16:703][128]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-02.05.43:753][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.06.50:922][852]BlueprintLog: New page: Compile GM_LD39
+[2017.07.29-02.06.52:021][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Logic/GM_LD39" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset" SILENT=true
+[2017.07.29-02.06.52:053][878]LogSavePackage: Save=17.19ms
+[2017.07.29-02.06.52:053][878]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/GM_LD39657CB27745A4CDC223057BA71984432E.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset'
+[2017.07.29-02.06.52:057][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset
+[2017.07.29-02.08.47:086][226]BlueprintLog: New page: Compile PC_CameraRig
+[2017.07.29-02.08.48:429][259]BlueprintLog: New page: Compile GM_LD39
+[2017.07.29-02.08.50:358][313]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.08.50:375][313]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.08.50:376][313]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.08.50:378][313]LogBlueprint:Error: [Compiler BP_Peon] Error  ActionRecieved  Signature Error: The function/event 'ActionRecieved' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.08.50:609][313]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.08.50:609][313]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.08.50:609][313]BlueprintEditorCompileResults:Error: Error  ActionRecieved  Signature Error: The function/event 'ActionRecieved' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.08.50:610][313]LogBlueprint:Warning: [Compiler BP_Peon] Warning [1874.68] Compile of BP_Peon failed. 1 Fatal Issue(s) 2 Warning(s) [in 250 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.09.05:649][847]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.09.05:661][847]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.09.05:661][847]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.09.05:662][847]LogBlueprint:Error: [Compiler BP_Peon] Error  CustomEvent_0  Signature Error: The function/event 'CustomEvent_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.09.05:886][847]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.09.05:886][847]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.09.05:886][847]BlueprintEditorCompileResults:Error: Error  CustomEvent_0  Signature Error: The function/event 'CustomEvent_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.09.05:886][847]LogBlueprint:Warning: [Compiler BP_Peon] Warning [1889.96] Compile of BP_Peon failed. 1 Fatal Issue(s) 2 Warning(s) [in 236 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.09.20:245][262]BlueprintLog: New page: Compile GM_LD39
+[2017.07.29-02.09.22:545][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Logic/GM_LD39" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset" SILENT=true
+[2017.07.29-02.09.22:565][322]LogSavePackage: Save=17.44ms
+[2017.07.29-02.09.22:565][322]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/GM_LD3952C8874C427969D42B59BBA6A1FC883D.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset'
+[2017.07.29-02.09.22:567][322]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset
+[2017.07.29-02.09.40:493][854]BlueprintLog: New page: Compile GM_LD39
+[2017.07.29-02.09.55:052][257]BlueprintLog: New page: Compile GM_LD39
+[2017.07.29-02.10.41:648][173]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.10.41:663][173]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.10.41:663][173]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.10.41:664][173]LogBlueprint:Error: [Compiler BP_Peon] Error  CustomEvent_0  Signature Error: The function/event 'CustomEvent_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.10.41:928][173]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.10.41:928][173]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.10.41:928][173]BlueprintEditorCompileResults:Error: Error  CustomEvent_0  Signature Error: The function/event 'CustomEvent_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.10.41:928][173]LogBlueprint:Warning: [Compiler BP_Peon] Warning [1986.00] Compile of BP_Peon failed. 1 Fatal Issue(s) 2 Warning(s) [in 280 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.12.55:696][ 47]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.12.55:705][ 47]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.12.55:705][ 47]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.12.55:706][ 47]LogBlueprint:Error: [Compiler BP_Peon] Error  OnActionRecieved  Signature Error: The function/event 'OnActionRecieved' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.12.55:941][ 47]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.12.55:941][ 47]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.12.55:941][ 47]BlueprintEditorCompileResults:Error: Error  OnActionRecieved  Signature Error: The function/event 'OnActionRecieved' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.12.55:942][ 47]LogBlueprint:Warning: [Compiler BP_Peon] Warning [2120.01] Compile of BP_Peon failed. 1 Fatal Issue(s) 2 Warning(s) [in 245 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.14.09:438][541]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.14.09:458][541]LogBlueprint:Error: [Compiler BP_Peon] Error  Create Event  : missing a function/event name.
+[2017.07.29-02.14.09:459][541]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.09:459][541]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.09:460][541]LogBlueprint:Error: [Compiler BP_Peon] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.29-02.14.09:460][541]LogBlueprint:Error: [Compiler BP_Peon] Error  Create Event  Signature Error: No function/event specified.
+[2017.07.29-02.14.09:696][541]BlueprintEditorCompileResults:Error: Error  Create Event  : missing a function/event name.
+[2017.07.29-02.14.09:696][541]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.09:696][541]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.09:696][541]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.29-02.14.09:696][541]BlueprintEditorCompileResults:Error: Error  Create Event  Signature Error: No function/event specified.
+[2017.07.29-02.14.09:696][541]LogBlueprint:Warning: [Compiler BP_Peon] Warning [2193.77] Compile of BP_Peon failed. 3 Fatal Issue(s) 2 Warning(s) [in 257 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.14.10:661][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-02.14.10:713][568]LogSavePackage: Save=42.62ms
+[2017.07.29-02.14.10:713][568]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon70527D2949C2A426269501A476918666.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-02.14.10:716][568]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-02.14.27:894][217]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.14.27:906][217]LogBlueprint:Error: [Compiler BP_Peon] Error  Create Event  : missing a function/event name.
+[2017.07.29-02.14.27:906][217]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.27:906][217]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.27:906][217]LogBlueprint:Error: [Compiler BP_Peon] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.29-02.14.27:907][217]LogBlueprint:Error: [Compiler BP_Peon] Error  Create Event  Signature Error: No function/event specified.
+[2017.07.29-02.14.28:129][217]BlueprintEditorCompileResults:Error: Error  Create Event  : missing a function/event name.
+[2017.07.29-02.14.28:129][217]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.28:129][217]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.28:129][217]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.29-02.14.28:129][217]BlueprintEditorCompileResults:Error: Error  Create Event  Signature Error: No function/event specified.
+[2017.07.29-02.14.28:129][217]LogBlueprint:Warning: [Compiler BP_Peon] Warning [2212.20] Compile of BP_Peon failed. 3 Fatal Issue(s) 2 Warning(s) [in 235 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.14.43:048][708]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.14.43:061][708]LogBlueprint:Error: [Compiler BP_Peon] Error  Create Event  : missing a function/event name.
+[2017.07.29-02.14.43:061][708]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.43:061][708]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.43:061][708]LogBlueprint:Error: [Compiler BP_Peon] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.29-02.14.43:061][708]LogBlueprint:Error: [Compiler BP_Peon] Error  Create Event  Signature Error: No function/event specified.
+[2017.07.29-02.14.43:292][708]BlueprintEditorCompileResults:Error: Error  Create Event  : missing a function/event name.
+[2017.07.29-02.14.43:292][708]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.43:292][708]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.43:292][708]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.29-02.14.43:292][708]BlueprintEditorCompileResults:Error: Error  Create Event  Signature Error: No function/event specified.
+[2017.07.29-02.14.43:293][708]LogBlueprint:Warning: [Compiler BP_Peon] Warning [2227.36] Compile of BP_Peon failed. 3 Fatal Issue(s) 2 Warning(s) [in 244 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.14.44:516][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-02.14.44:565][743]LogSavePackage: Save=45.05ms
+[2017.07.29-02.14.44:565][743]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_PeonFBD65B9842E71768D11C9B93CC9EE1AF.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-02.14.44:568][743]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-02.16.05:372][710]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.16.05:386][710]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.05:386][710]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.05:388][710]LogBlueprint:Error: [Compiler BP_Peon] Error  ActionDispatcher_Event_0  Signature Error: The function/event 'ActionDispatcher_Event_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.16.05:620][710]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.05:620][710]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.05:620][710]BlueprintEditorCompileResults:Error: Error  ActionDispatcher_Event_0  Signature Error: The function/event 'ActionDispatcher_Event_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.16.05:621][710]LogBlueprint:Warning: [Compiler BP_Peon] Warning [2309.69] Compile of BP_Peon failed. 1 Fatal Issue(s) 2 Warning(s) [in 248 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.16.20:458][142]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.16.20:471][142]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.20:471][142]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.20:472][142]LogBlueprint:Error: [Compiler BP_Peon] Error  ActionDispatcher_Event_0  Signature Error: The function/event 'ActionDispatcher_Event_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.16.20:698][142]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.20:699][142]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.20:699][142]BlueprintEditorCompileResults:Error: Error  ActionDispatcher_Event_0  Signature Error: The function/event 'ActionDispatcher_Event_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.16.20:699][142]LogBlueprint:Warning: [Compiler BP_Peon] Warning [2324.77] Compile of BP_Peon failed. 1 Fatal Issue(s) 2 Warning(s) [in 240 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.17.53:165][338]LogClass:Warning: Type mismatch in NewVar_0 of SKEL_GM_LD39_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.07.29-02.18.30:466][455]BlueprintLog: New page: Compile GM_LD39
+[2017.07.29-02.22.01:686][607]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.22.02:434][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-02.22.02:507][622]LogSavePackage: Save=63.41ms
+[2017.07.29-02.22.02:507][622]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon6D9FBED841D5F88A5FA03585E3D8DD29.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-02.22.02:511][622]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-02.26.48:170][569]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.26.49:272][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-02.26.49:345][586]LogSavePackage: Save=68.76ms
+[2017.07.29-02.26.49:345][586]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon3B07E75E4D4614B92483C1860ECF890F.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-02.26.49:348][586]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-02.28.00:372][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BB_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BB_Peon.uasset" SILENT=true
+[2017.07.29-02.28.00:383][941]LogSavePackage: Save=8.00ms
+[2017.07.29-02.28.00:383][941]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BB_PeonA0C0CB3945EC112C9D82CEADB68C57DE.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BB_Peon.uasset'
+[2017.07.29-02.28.00:387][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BB_Peon.uasset
+[2017.07.29-02.28.00:392][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BT_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BT_Peon.uasset" SILENT=true
+[2017.07.29-02.28.00:401][941]LogSavePackage: Save=5.24ms
+[2017.07.29-02.28.00:401][941]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BT_PeonE9C2A4BF40C07C365D6A9FAB5B278609.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BT_Peon.uasset'
+[2017.07.29-02.28.00:404][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BT_Peon.uasset
+[2017.07.29-02.28.00:409][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Logic/GM_LD39" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset" SILENT=true
+[2017.07.29-02.28.00:438][941]LogSavePackage: Save=18.58ms
+[2017.07.29-02.28.00:438][941]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/GM_LD3964B004BF4C9CE93D9DBCA0A714E4C545.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset'
+[2017.07.29-02.28.00:444][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset
+[2017.07.29-02.28.00:521][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-02.28.00:611][941]LogSavePackage: Save=42.60ms
+[2017.07.29-02.28.00:611][941]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap195C71DFA4926A09D507AEA935BF36D8F.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-02.28.00:614][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-02.28.00:649][941]LogFileHelpers: Saving map 'TestMap1' took 0.198
+[2017.07.29-02.28.38:558][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.31.13:865][993]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.31.14:840][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-02.31.14:920][ 15]LogSavePackage: Save=62.50ms
+[2017.07.29-02.31.14:920][ 15]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_PeonAA1234A64081F32C2F5A309C7AC1939A.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-02.31.14:921][ 15]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-02.31.57:376][339]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.31.58:104][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-02.31.58:171][354]LogSavePackage: Save=64.05ms
+[2017.07.29-02.31.58:172][354]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_PeonC76227C94E11C1368135FABA99E0B155.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-02.31.58:175][354]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-02.32.16:561][898]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.29-02.32.32:164][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BB_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BB_Peon.uasset" SILENT=true
+[2017.07.29-02.32.32:177][450]LogSavePackage: Save=5.32ms
+[2017.07.29-02.32.32:178][450]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BB_PeonBEA945B74EEA65E3B1D8B2BC987CC08F.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BB_Peon.uasset'
+[2017.07.29-02.32.32:182][450]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BB_Peon.uasset
+[2017.07.29-02.33.31:456][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BT_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BT_Peon.uasset" SILENT=true
+[2017.07.29-02.33.31:481][442]LogSavePackage: Save=18.93ms
+[2017.07.29-02.33.31:481][442]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BT_Peon733CF51C43A737F19A7C45BDA7CC9DBC.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BT_Peon.uasset'
+[2017.07.29-02.33.31:486][442]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BT_Peon.uasset
+[2017.07.29-02.33.36:006][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.33.44:296][951]Cmd: DELETE
+[2017.07.29-02.33.44:296][951]Cmd: ACTOR DELETE
+[2017.07.29-02.33.44:297][951]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.29-02.33.44:344][951]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2017.07.29-02.33.48:955][145]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.07.29-02.34.23:379][576]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-02.34.24:236][611]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.07.29-02.38.18:945][635]BlueprintLog: New page: Compile PC_CameraRig
+[2017.07.29-02.38.19:926][655]LogSavePackage: Save=35.22ms
+[2017.07.29-02.38.19:926][655]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/PC_CameraRig37773651411EAF6FCDEB8AB5A0B507DC.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset'
+[2017.07.29-02.38.19:929][655]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset
+[2017.07.29-02.38.36:216][275]BlueprintLog: New page: Compile PC_CameraRig
+[2017.07.29-02.38.37:253][299]LogSavePackage: Save=36.80ms
+[2017.07.29-02.38.37:253][299]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/PC_CameraRig6FA7F8FF419BC9D9D38BF48A376F9462.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset'
+[2017.07.29-02.38.37:256][299]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset
+[2017.07.29-02.38.54:781][822]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.29-02.39.13:061][384]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.39.16:055][480]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.39.16:093][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.39.16:093][480]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:39:16 PM)
+[2017.07.29-02.39.16:094][480]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.39.16:106][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012344s)
+[2017.07.29-02.39.16:107][480]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.39.16:107][480]LogPlayLevel: PIE: World Init took: (0.001169s)
+[2017.07.29-02.39.16:107][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.013787s)
+[2017.07.29-02.39.16:147][480]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.39.16:166][480]LogInit: FAudioDevice initialized.
+[2017.07.29-02.39.16:203][480]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.39.16:204][480]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.39.16
+[2017.07.29-02.39.16:204][480]LogWorld: Bringing up level for play took: 0.001139
+[2017.07.29-02.39.16:214][480]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 1.114
+[2017.07.29-02.39.17:858][558]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:0168
+[2017.07.29-02.39.17:858][558]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'OnActionRecieved' from node: Set Value as Vector in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2017.07.29-02.39.17:858][558]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:00F2
+[2017.07.29-02.39.17:858][558]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2 from function: 'OnActionRecieved' from node: Set Value as Object in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+[2017.07.29-02.39.18:648][597]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:0168
+[2017.07.29-02.39.18:648][597]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'OnActionRecieved' from node: Set Value as Vector in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2017.07.29-02.39.18:648][597]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:00F2
+[2017.07.29-02.39.18:648][597]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2 from function: 'OnActionRecieved' from node: Set Value as Object in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+[2017.07.29-02.39.19:192][623]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:0168
+[2017.07.29-02.39.19:192][623]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'OnActionRecieved' from node: Set Value as Vector in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2017.07.29-02.39.19:192][623]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:00F2
+[2017.07.29-02.39.19:192][623]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2 from function: 'OnActionRecieved' from node: Set Value as Object in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+[2017.07.29-02.39.19:366][632]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:0168
+[2017.07.29-02.39.19:366][632]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'OnActionRecieved' from node: Set Value as Vector in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2017.07.29-02.39.19:366][632]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:00F2
+[2017.07.29-02.39.19:366][632]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2 from function: 'OnActionRecieved' from node: Set Value as Object in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+[2017.07.29-02.39.19:511][639]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:0168
+[2017.07.29-02.39.19:511][639]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'OnActionRecieved' from node: Set Value as Vector in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2017.07.29-02.39.19:511][639]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:00F2
+[2017.07.29-02.39.19:511][639]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2 from function: 'OnActionRecieved' from node: Set Value as Object in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+[2017.07.29-02.39.19:677][647]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:0168
+[2017.07.29-02.39.19:677][647]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'OnActionRecieved' from node: Set Value as Vector in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2017.07.29-02.39.19:677][647]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:00F2
+[2017.07.29-02.39.19:677][647]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2 from function: 'OnActionRecieved' from node: Set Value as Object in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+[2017.07.29-02.39.19:799][653]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:0168
+[2017.07.29-02.39.19:799][653]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'OnActionRecieved' from node: Set Value as Vector in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2017.07.29-02.39.19:799][653]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:00F2
+[2017.07.29-02.39.19:799][653]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2 from function: 'OnActionRecieved' from node: Set Value as Object in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+[2017.07.29-02.39.19:927][659]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:0168
+[2017.07.29-02.39.19:928][659]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'OnActionRecieved' from node: Set Value as Vector in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2017.07.29-02.39.19:928][659]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:00F2
+[2017.07.29-02.39.19:929][659]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2 from function: 'OnActionRecieved' from node: Set Value as Object in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+[2017.07.29-02.39.21:482][735]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Peon_C /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1:PersistentLevel.BP_Peon_241
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved:0168
+[2017.07.29-02.39.21:482][735]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'OnActionRecieved' from node: Set Value as Vector in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2017.07.29-02.39.21:483][735]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2 from function: 'OnActionRecieved' from node: Set Value as Object in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+[2017.07.29-02.39.21:804][751]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'OnActionRecieved' from node: Set Value as Vector in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2017.07.29-02.39.21:804][751]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2 from function: 'OnActionRecieved' from node: Set Value as Object in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+[2017.07.29-02.39.22:303][775]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'OnActionRecieved' from node: Set Value as Vector in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2017.07.29-02.39.22:303][775]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2 from function: 'OnActionRecieved' from node: Set Value as Object in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+[2017.07.29-02.39.22:465][783]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'OnActionRecieved' from node: Set Value as Vector in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2017.07.29-02.39.22:465][783]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2 from function: 'OnActionRecieved' from node: Set Value as Object in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+[2017.07.29-02.39.23:111][814]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'OnActionRecieved' from node: Set Value as Vector in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2017.07.29-02.39.23:112][814]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2 from function: 'OnActionRecieved' from node: Set Value as Object in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+[2017.07.29-02.39.23:320][824]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'OnActionRecieved' from node: Set Value as Vector in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2017.07.29-02.39.23:320][824]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2 from function: 'OnActionRecieved' from node: Set Value as Object in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+[2017.07.29-02.39.23:443][830]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue from function: 'OnActionRecieved' from node: Set Value as Vector in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+[2017.07.29-02.39.23:444][830]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2 from function: 'OnActionRecieved' from node: Set Value as Object in graph: OnActionRecieved in object: BP_Peon with description: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue2
+[2017.07.29-02.39.35:313][294]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-02.39.38:216][415]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.29-02.40.27:864][857]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/LD39Custom/Blueprints/Characters/Peon/NewBlueprint.
+[2017.07.29-02.40.27:978][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/Maps/TestMap1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.07.29-02.40.28:051][857]LogSavePackage: Save=63.45ms
+[2017.07.29-02.40.28:051][857]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap1_Auto174C33D8E473012739620AC8E2B5F85C1.tmp' to '../../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/Maps/TestMap1_Auto1.umap'
+[2017.07.29-02.40.28:052][857]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/Maps/TestMap1_Auto1.umap
+[2017.07.29-02.40.28:055][857]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LD39Custom/Maps/TestMap1' took 0.124
+[2017.07.29-02.40.28:055][857]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.124
+[2017.07.29-02.40.28:066][857]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon] ([1] browsable assets)...
+[2017.07.29-02.40.28:092][857]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon]
+[2017.07.29-02.40.28:092][857]OBJ SavePackage: Finished generating thumbnails for package [/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon]
+[2017.07.29-02.40.28:166][857]LogSavePackage: Save=65.36ms
+[2017.07.29-02.40.28:166][857]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon_Auto1622B332B4F43659A8EDEAEAC82FA6F5F.tmp' to '../../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon_Auto1.uasset'
+[2017.07.29-02.40.28:167][857]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon_Auto1.uasset
+[2017.07.29-02.40.28:168][857]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LD39Custom/Blueprints/Characters/Peon/NewBlueprint] ([1] browsable assets)...
+[2017.07.29-02.40.28:168][857]OBJ SavePackage: Finished generating thumbnails for package [/Game/LD39Custom/Blueprints/Characters/Peon/NewBlueprint]
+[2017.07.29-02.40.28:184][857]LogSavePackage: Save=13.88ms
+[2017.07.29-02.40.28:184][857]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/NewBlueprint_Auto1C2C7AD2A4B1E11D43172918B48E0B051.tmp' to '../../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/Blueprints/Characters/Peon/NewBlueprint_Auto1.uasset'
+[2017.07.29-02.40.28:186][857]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Saved/Autosaves/Game/LD39Custom/Blueprints/Characters/Peon/NewBlueprint_Auto1.uasset
+[2017.07.29-02.40.28:186][857]LogFileHelpers: Auto-saving content packages took 0.122
+[2017.07.29-02.40.36:820][ 98]LogMetaData: Removing '/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.BP_Peon_AI:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/LD39Custom/Blueprints/Characters/Peon/NewBlueprint.PackageMetaData'
+[2017.07.29-02.40.36:820][ 98]LogMetaData: Removing '/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.SKEL_BP_Peon_AI_C' ref from Metadata '/Game/LD39Custom/Blueprints/Characters/Peon/NewBlueprint.PackageMetaData'
+[2017.07.29-02.40.36:820][ 98]LogMetaData: Removing '/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.BP_Peon_AI_C' ref from Metadata '/Game/LD39Custom/Blueprints/Characters/Peon/NewBlueprint.PackageMetaData'
+[2017.07.29-02.40.36:820][ 98]LogMetaData: Removing '/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.BP_Peon_AI:EventGraph.K2Node_Event_0' ref from Metadata '/Game/LD39Custom/Blueprints/Characters/Peon/NewBlueprint.PackageMetaData'
+[2017.07.29-02.40.36:820][ 98]LogMetaData: Removing '/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.BP_Peon_AI:EventGraph.K2Node_Event_1' ref from Metadata '/Game/LD39Custom/Blueprints/Characters/Peon/NewBlueprint.PackageMetaData'
+[2017.07.29-02.40.36:864][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.uasset" SILENT=true
+[2017.07.29-02.40.36:885][ 98]LogSavePackage: Save=15.99ms
+[2017.07.29-02.40.36:885][ 98]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon_AI830952E6432C45D078A6C791D037EA5A.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.uasset'
+[2017.07.29-02.40.36:888][ 98]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.uasset
+[2017.07.29-02.40.37:232][101]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.
+[2017.07.29-02.41.06:178][ 43]BlueprintLog: New page: Compile BP_Peon_AI
+[2017.07.29-02.41.07:154][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.uasset" SILENT=true
+[2017.07.29-02.41.07:190][ 64]LogSavePackage: Save=15.60ms
+[2017.07.29-02.41.07:190][ 64]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon_AI2CE39A6546AEAD7E44AEEABDC0536A6D.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.uasset'
+[2017.07.29-02.41.07:195][ 64]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.uasset
+[2017.07.29-02.41.14:901][293]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.29-02.41.19:078][447]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.41.25:336][658]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.41.25:374][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.41.25:374][658]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:41:25 PM)
+[2017.07.29-02.41.25:374][658]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.41.25:379][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004745s)
+[2017.07.29-02.41.25:380][658]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.41.25:380][658]LogPlayLevel: PIE: World Init took: (0.001426s)
+[2017.07.29-02.41.25:381][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.006464s)
+[2017.07.29-02.41.25:425][658]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.41.25:436][658]LogInit: FAudioDevice initialized.
+[2017.07.29-02.41.25:474][658]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.41.25:476][658]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.41.25
+[2017.07.29-02.41.25:476][658]LogWorld: Bringing up level for play took: 0.001204
+[2017.07.29-02.41.25:487][658]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 0.387
+[2017.07.29-02.42.25:206][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-02.42.25:328][203]LogSavePackage: Save=62.53ms
+[2017.07.29-02.42.25:328][203]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap122FAAC784380EEC40F884DB70E7543CA.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-02.42.25:334][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-02.42.26:707][256]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.42.26:745][256]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.42.26:745][256]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:42:26 PM)
+[2017.07.29-02.42.26:745][256]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.42.26:751][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005963s)
+[2017.07.29-02.42.26:752][256]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.42.26:752][256]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2017.07.29-02.42.26:752][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.007442s)
+[2017.07.29-02.42.26:796][256]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.42.26:807][256]LogInit: FAudioDevice initialized.
+[2017.07.29-02.42.26:842][256]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.42.26:844][256]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.42.26
+[2017.07.29-02.42.26:844][256]LogWorld: Bringing up level for play took: 0.001539
+[2017.07.29-02.42.26:853][256]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.247
+[2017.07.29-02.42.31:961][486]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-02.42.32:117][488]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
+[2017.07.29-02.42.52:251][146]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.42.53:093][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-02.42.53:159][160]LogSavePackage: Save=62.45ms
+[2017.07.29-02.42.53:159][160]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon07AF065F434B4DF690D93D9870784BF5.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-02.42.53:163][160]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-02.42.55:215][235]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.42.55:252][235]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.42.55:252][235]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:42:55 PM)
+[2017.07.29-02.42.55:252][235]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.42.55:258][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005908s)
+[2017.07.29-02.42.55:259][235]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.42.55:259][235]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2017.07.29-02.42.55:260][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.007231s)
+[2017.07.29-02.42.55:301][235]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.42.55:311][235]LogInit: FAudioDevice initialized.
+[2017.07.29-02.42.55:345][235]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.42.55:346][235]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.42.55
+[2017.07.29-02.42.55:346][235]LogWorld: Bringing up level for play took: 0.001044
+[2017.07.29-02.42.55:348][235]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 0.248
+[2017.07.29-02.42.57:115][321]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_DynamicCast', from offset 96
+[2017.07.29-02.42.57:115][321]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:ActionEvent
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:ExecuteUbergraph_BP_Peon
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved
+
+[2017.07.29-02.44.12:759][737]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.44.12:802][737]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.29-02.44.12:802][737]LogPlayLevel: [PlayLevel] Compiling BP_Peon before play...
+[2017.07.29-02.44.13:248][737]LogPlayLevel: PlayLevel: Blueprint regeneration took 446 ms (1 blueprints)
+[2017.07.29-02.44.13:248][737]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:44:13 PM)
+[2017.07.29-02.44.13:248][737]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.44.13:254][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005553s)
+[2017.07.29-02.44.13:254][737]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.44.13:255][737]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2017.07.29-02.44.13:255][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.006690s)
+[2017.07.29-02.44.13:298][737]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.44.13:309][737]LogInit: FAudioDevice initialized.
+[2017.07.29-02.44.13:341][737]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.44.13:343][737]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.44.13
+[2017.07.29-02.44.13:343][737]LogWorld: Bringing up level for play took: 0.001223
+[2017.07.29-02.44.13:345][737]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 0.244
+[2017.07.29-02.44.14:872][805]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_DynamicCast', from offset 96
+[2017.07.29-02.44.14:872][805]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:ActionEvent
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:ExecuteUbergraph_BP_Peon
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved
+
+[2017.07.29-02.44.51:549][ 95]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-02.45.10:410][743]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.29-02.45.35:769][792]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon from Pawn to Character...
+[2017.07.29-02.45.35:792][792]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.46.20:853][940]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.46.28:587][195]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.46.28:625][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.46.28:625][195]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:46:28 PM)
+[2017.07.29-02.46.28:625][195]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.46.28:631][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005940s)
+[2017.07.29-02.46.28:632][195]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.46.28:633][195]LogPlayLevel: PIE: World Init took: (0.001190s)
+[2017.07.29-02.46.28:633][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.007429s)
+[2017.07.29-02.46.28:674][195]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.46.28:688][195]LogInit: FAudioDevice initialized.
+[2017.07.29-02.46.28:723][195]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.46.28:724][195]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.46.28
+[2017.07.29-02.46.28:737][195]LogWorld: Bringing up level for play took: 0.013211
+[2017.07.29-02.46.28:739][195]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.362
+[2017.07.29-02.46.36:340][535]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-02.49.10:848][515]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-02.49.42:178][877]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.29-02.49.45:463][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-02.49.45:574][ 24]LogSavePackage: Save=58.44ms
+[2017.07.29-02.49.45:574][ 24]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap108D40D97451B6A882F3C6D95697FF2F4.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-02.49.45:579][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-02.49.46:435][ 59]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.49.46:474][ 59]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.29-02.49.46:474][ 59]LogPlayLevel: [PlayLevel] Compiling BP_Peon before play...
+[2017.07.29-02.49.46:712][ 59]LogPlayLevel: PlayLevel: Blueprint regeneration took 237 ms (1 blueprints)
+[2017.07.29-02.49.46:713][ 59]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:49:46 PM)
+[2017.07.29-02.49.46:713][ 59]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.49.46:720][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007026s)
+[2017.07.29-02.49.46:720][ 59]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.49.46:721][ 59]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2017.07.29-02.49.46:721][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.008150s)
+[2017.07.29-02.49.46:771][ 59]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.49.46:783][ 59]LogInit: FAudioDevice initialized.
+[2017.07.29-02.49.46:821][ 59]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.49.46:823][ 59]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.49.46
+[2017.07.29-02.49.46:823][ 59]LogWorld: Bringing up level for play took: 0.001318
+[2017.07.29-02.49.46:825][ 59]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.276
+[2017.07.29-02.50.03:983][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.uasset" SILENT=true
+[2017.07.29-02.50.04:012][636]LogSavePackage: Save=18.05ms
+[2017.07.29-02.50.04:012][636]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon_AI1A90A90444B1BC397A16D3AD5981BB00.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.uasset'
+[2017.07.29-02.50.04:016][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.uasset
+[2017.07.29-02.50.08:010][791]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.50.08:044][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.50.08:045][791]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:50:08 PM)
+[2017.07.29-02.50.08:045][791]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.50.08:050][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005468s)
+[2017.07.29-02.50.08:051][791]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.50.08:051][791]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2017.07.29-02.50.08:051][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.006555s)
+[2017.07.29-02.50.08:105][791]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.50.08:115][791]LogInit: FAudioDevice initialized.
+[2017.07.29-02.50.08:149][791]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.50.08:150][791]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.50.08
+[2017.07.29-02.50.08:151][791]LogWorld: Bringing up level for play took: 0.001422
+[2017.07.29-02.50.08:152][791]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_RunBehaviorTree', from offset 10
+[2017.07.29-02.50.08:152][791]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.BP_Peon_AI_C:ReceiveBeginPlay
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.BP_Peon_AI_C:ExecuteUbergraph_BP_Peon_AI
+
+[2017.07.29-02.50.12:131][791]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 5.031
+[2017.07.29-02.50.32:104][450]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.50.33:110][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-02.50.33:195][468]LogSavePackage: Save=73.24ms
+[2017.07.29-02.50.33:195][468]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon734D6D124D17BB9E31C6D4881F6720C8.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-02.50.33:198][468]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-02.50.35:802][557]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.50.35:843][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.50.35:843][557]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:50:35 PM)
+[2017.07.29-02.50.35:843][557]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.50.35:850][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006392s)
+[2017.07.29-02.50.35:851][557]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.50.35:851][557]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2017.07.29-02.50.35:851][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.007686s)
+[2017.07.29-02.50.35:898][557]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.50.35:909][557]LogInit: FAudioDevice initialized.
+[2017.07.29-02.50.35:941][557]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.50.35:943][557]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.50.35
+[2017.07.29-02.50.35:943][557]LogWorld: Bringing up level for play took: 0.001328
+[2017.07.29-02.50.35:945][557]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 0.844
+[2017.07.29-02.50.45:624][  4]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-02.51.19:543][ 70]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.29-02.51.38:824][773]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.51.42:127][880]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.51.42:165][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.51.42:165][880]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:51:42 PM)
+[2017.07.29-02.51.42:165][880]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.51.42:173][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007751s)
+[2017.07.29-02.51.42:175][880]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.51.42:176][880]LogPlayLevel: PIE: World Init took: (0.002512s)
+[2017.07.29-02.51.42:176][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.010694s)
+[2017.07.29-02.51.42:222][880]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.51.42:232][880]LogInit: FAudioDevice initialized.
+[2017.07.29-02.51.42:266][880]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.51.42:268][880]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.51.42
+[2017.07.29-02.51.42:268][880]LogWorld: Bringing up level for play took: 0.001299
+[2017.07.29-02.51.42:270][880]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.831
+[2017.07.29-02.51.55:786][333]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.51.58:230][412]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.51.58:265][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.51.58:265][412]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:51:58 PM)
+[2017.07.29-02.51.58:265][412]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.51.58:270][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005648s)
+[2017.07.29-02.51.58:271][412]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.51.58:271][412]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2017.07.29-02.51.58:271][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.006662s)
+[2017.07.29-02.51.58:324][412]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.51.58:334][412]LogInit: FAudioDevice initialized.
+[2017.07.29-02.51.58:369][412]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.51.58:371][412]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.51.58
+[2017.07.29-02.51.58:371][412]LogWorld: Bringing up level for play took: 0.001350
+[2017.07.29-02.51.58:373][412]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.728
+[2017.07.29-02.51.58:955][441]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 10
+[2017.07.29-02.51.58:955][441]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:ReceiveActorOnClicked
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:ExecuteUbergraph_BP_Peon
+
+[2017.07.29-02.52.25:140][913]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.52.26:089][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-02.52.26:173][930]LogSavePackage: Save=78.96ms
+[2017.07.29-02.52.26:173][930]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon68F6B2AD4137F6663AB42BB77A005F84.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-02.52.26:176][930]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-02.52.28:752][ 26]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.52.28:790][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.52.28:790][ 26]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:52:28 PM)
+[2017.07.29-02.52.28:791][ 26]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.52.28:797][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005967s)
+[2017.07.29-02.52.28:797][ 26]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.52.28:797][ 26]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2017.07.29-02.52.28:798][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.007027s)
+[2017.07.29-02.52.28:838][ 26]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.52.28:850][ 26]LogInit: FAudioDevice initialized.
+[2017.07.29-02.52.28:889][ 26]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.52.28:891][ 26]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.52.28
+[2017.07.29-02.52.28:891][ 26]LogWorld: Bringing up level for play took: 0.001579
+[2017.07.29-02.52.28:893][ 26]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.207
+[2017.07.29-02.52.29:867][ 74]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 40
+[2017.07.29-02.52.29:867][ 74]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:ActionEvent
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:ExecuteUbergraph_BP_Peon
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved
+
+[2017.07.29-02.52.43:512][ 74]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_SetValueAsVector', from offset 349
+[2017.07.29-02.52.43:512][ 74]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:ActionEvent
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:ExecuteUbergraph_BP_Peon
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:OnActionRecieved
+
+[2017.07.29-02.53.42:206][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-02.53.42:274][875]LogSavePackage: Save=64.32ms
+[2017.07.29-02.53.42:274][875]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon80193A6141B90E25DFFAF980E094DF80.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-02.53.42:280][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-02.53.42:284][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.uasset" SILENT=true
+[2017.07.29-02.53.42:305][875]LogSavePackage: Save=16.14ms
+[2017.07.29-02.53.42:305][875]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon_AI8B03834B451A0F46A1190BB3CC58C1C9.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.uasset'
+[2017.07.29-02.53.42:308][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon_AI.uasset
+[2017.07.29-02.53.42:390][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-02.53.42:501][875]LogSavePackage: Save=68.88ms
+[2017.07.29-02.53.42:501][875]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap1D190ACA1449A3128F9F26EAD981AC94E.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-02.53.42:504][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-02.53.42:535][875]LogFileHelpers: Saving map 'TestMap1' took 0.220
+[2017.07.29-02.53.44:528][954]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.53.44:564][954]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.53.44:565][954]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:53:44 PM)
+[2017.07.29-02.53.44:566][954]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.53.44:572][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006164s)
+[2017.07.29-02.53.44:573][954]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.53.44:573][954]LogPlayLevel: PIE: World Init took: (0.001577s)
+[2017.07.29-02.53.44:574][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.008447s)
+[2017.07.29-02.53.44:623][954]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.53.44:634][954]LogInit: FAudioDevice initialized.
+[2017.07.29-02.53.44:687][954]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.53.44:690][954]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.53.44
+[2017.07.29-02.53.44:691][954]LogWorld: Bringing up level for play took: 0.002608
+[2017.07.29-02.53.44:694][954]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.407
+[2017.07.29-02.54.14:760][890]BlueprintLog: New page: Compile BP_RtsCameraRig
+[2017.07.29-02.54.16:118][911]LogSavePackage: Save=40.84ms
+[2017.07.29-02.54.16:118][911]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_RtsCameraRig59442BC049AC667FE69DA294DB4285A9.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset'
+[2017.07.29-02.54.16:122][911]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset
+[2017.07.29-02.54.18:784][992]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.54.18:825][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.54.18:825][992]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:54:18 PM)
+[2017.07.29-02.54.18:826][992]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.54.18:832][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005644s)
+[2017.07.29-02.54.18:832][992]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.54.18:832][992]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2017.07.29-02.54.18:833][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.006730s)
+[2017.07.29-02.54.18:877][992]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.54.18:888][992]LogInit: FAudioDevice initialized.
+[2017.07.29-02.54.18:926][992]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.54.18:928][992]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.54.18
+[2017.07.29-02.54.18:928][992]LogWorld: Bringing up level for play took: 0.001345
+[2017.07.29-02.54.18:930][992]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.17
+[2017.07.29-02.54.59:080][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BT_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BT_Peon.uasset" SILENT=true
+[2017.07.29-02.54.59:100][644]LogSavePackage: Save=11.45ms
+[2017.07.29-02.54.59:100][644]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BT_Peon4B2BD0934BAFF623D522289BDE2DFAE5.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BT_Peon.uasset'
+[2017.07.29-02.54.59:104][644]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BT_Peon.uasset
+[2017.07.29-02.55.02:014][751]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.55.02:052][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.55.02:052][751]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:55:02 PM)
+[2017.07.29-02.55.02:052][751]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.55.02:058][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005539s)
+[2017.07.29-02.55.02:058][751]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.55.02:059][751]LogPlayLevel: PIE: World Init took: (0.001041s)
+[2017.07.29-02.55.02:059][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.006931s)
+[2017.07.29-02.55.02:104][751]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.55.02:117][751]LogInit: FAudioDevice initialized.
+[2017.07.29-02.55.02:150][751]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.55.02:151][751]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.55.02
+[2017.07.29-02.55.02:152][751]LogWorld: Bringing up level for play took: 0.001341
+[2017.07.29-02.55.02:154][751]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 1.053
+[2017.07.29-02.55.23:376][736]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.55.23:417][736]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.55.23:417][736]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:55:23 PM)
+[2017.07.29-02.55.23:417][736]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.55.23:423][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006229s)
+[2017.07.29-02.55.23:424][736]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.55.23:424][736]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2017.07.29-02.55.23:424][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.007163s)
+[2017.07.29-02.55.23:469][736]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.55.23:480][736]LogInit: FAudioDevice initialized.
+[2017.07.29-02.55.23:512][736]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.55.23:514][736]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.55.23
+[2017.07.29-02.55.23:514][736]LogWorld: Bringing up level for play took: 0.001374
+[2017.07.29-02.55.23:516][736]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 0.415
+[2017.07.29-02.56.06:717][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-02.56.06:834][467]LogSavePackage: Save=61.04ms
+[2017.07.29-02.56.06:834][467]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap19F25AE254AA32585D6A445A19F509709.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-02.56.06:835][467]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-03.02.10:784][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-03.02.10:901][690]LogSavePackage: Save=61.45ms
+[2017.07.29-03.02.10:902][690]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap1AB2180814C2F89E14A8520A2D53264FD.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-03.02.10:903][690]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-03.04.59:540][768]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-03.05.12:914][128]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-03.05.15:966][223]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-03.05.16:010][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-03.05.16:010][223]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 7:05:16 PM)
+[2017.07.29-03.05.16:010][223]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-03.05.16:017][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006556s)
+[2017.07.29-03.05.16:018][223]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-03.05.16:018][223]LogPlayLevel: PIE: World Init took: (0.001128s)
+[2017.07.29-03.05.16:018][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.008016s)
+[2017.07.29-03.05.16:064][223]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-03.05.16:084][223]LogInit: FAudioDevice initialized.
+[2017.07.29-03.05.16:131][223]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-03.05.16:136][223]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-23.05.16
+[2017.07.29-03.05.16:139][223]LogWorld: Bringing up level for play took: 0.005351
+[2017.07.29-03.05.16:147][223]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 1.046
+[2017.07.29-03.05.45:804][310]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-03.05.46:669][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-03.05.46:758][326]LogSavePackage: Save=76.20ms
+[2017.07.29-03.05.46:758][326]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_PeonF442EC42499953C4C62F08A7A295BEA4.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-03.05.46:761][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-03.07.00:639][383]BlueprintLog: New page: Compile PC_CameraRig
+[2017.07.29-03.07.04:474][509]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-03.07.04:513][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-03.07.04:513][509]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 7:07:04 PM)
+[2017.07.29-03.07.04:513][509]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-03.07.04:518][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005194s)
+[2017.07.29-03.07.04:519][509]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-03.07.04:519][509]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2017.07.29-03.07.04:519][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.006213s)
+[2017.07.29-03.07.04:561][509]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-03.07.04:574][509]LogInit: FAudioDevice initialized.
+[2017.07.29-03.07.04:608][509]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-03.07.04:610][509]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-23.07.04
+[2017.07.29-03.07.04:610][509]LogWorld: Bringing up level for play took: 0.001246
+[2017.07.29-03.07.04:612][509]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.489
+[2017.07.29-03.08.00:093][364]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-03.08.03:515][481]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-03.08.03:549][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-03.08.03:549][481]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 7:08:03 PM)
+[2017.07.29-03.08.03:549][481]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-03.08.03:555][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005835s)
+[2017.07.29-03.08.03:555][481]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-03.08.03:555][481]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2017.07.29-03.08.03:556][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.006872s)
+[2017.07.29-03.08.03:603][481]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-03.08.03:615][481]LogInit: FAudioDevice initialized.
+[2017.07.29-03.08.03:653][481]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-03.08.03:656][481]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-23.08.03
+[2017.07.29-03.08.03:656][481]LogWorld: Bringing up level for play took: 0.002377
+[2017.07.29-03.08.03:659][481]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 0.558
+[2017.07.29-03.08.41:450][821]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.29-03.08.41:950][821]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.29-03.09.58:045][987]BlueprintLog: New page: Compile PC_CameraRig
+[2017.07.29-03.10.01:262][ 91]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-03.10.01:302][ 91]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.29-03.10.01:302][ 91]LogPlayLevel: [PlayLevel] Compiling BP_Peon before play...
+[2017.07.29-03.10.01:425][ 91]LogPlayLevel: [PlayLevel] Compiling GM_LD39 before play...
+[2017.07.29-03.10.01:715][ 91]LogPlayLevel: PlayLevel: Blueprint regeneration took 413 ms (2 blueprints)
+[2017.07.29-03.10.01:715][ 91]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 7:10:01 PM)
+[2017.07.29-03.10.01:715][ 91]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-03.10.01:759][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043520s)
+[2017.07.29-03.10.01:760][ 91]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-03.10.01:760][ 91]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2017.07.29-03.10.01:760][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.044768s)
+[2017.07.29-03.10.01:817][ 91]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-03.10.01:829][ 91]LogInit: FAudioDevice initialized.
+[2017.07.29-03.10.01:863][ 91]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-03.10.01:864][ 91]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-23.10.01
+[2017.07.29-03.10.01:865][ 91]LogWorld: Bringing up level for play took: 0.001598
+[2017.07.29-03.10.01:867][ 91]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 0.766
+[2017.07.29-03.10.02:719][123]LogBlueprintUserMessages: [PC_CameraRig_C_0] Hello
+[2017.07.29-03.10.04:022][187]LogBlueprintUserMessages: [PC_CameraRig_C_0] Hello
+[2017.07.29-03.10.05:140][242]LogBlueprintUserMessages: [PC_CameraRig_C_0] Hello
+[2017.07.29-03.10.06:673][317]LogBlueprintUserMessages: [PC_CameraRig_C_0] Hello
+[2017.07.29-03.10.07:364][351]LogBlueprintUserMessages: [PC_CameraRig_C_0] Hello
+[2017.07.29-03.11.43:165][537]BlueprintLog: New page: Compile PC_CameraRig
+[2017.07.29-03.11.45:518][620]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-03.11.45:565][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-03.11.45:565][620]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 7:11:45 PM)
+[2017.07.29-03.11.45:566][620]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-03.11.45:576][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009841s)
+[2017.07.29-03.11.45:576][620]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-03.11.45:577][620]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2017.07.29-03.11.45:577][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.011041s)
+[2017.07.29-03.11.45:621][620]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-03.11.45:633][620]LogInit: FAudioDevice initialized.
+[2017.07.29-03.11.45:667][620]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-03.11.45:668][620]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-23.11.45
+[2017.07.29-03.11.45:669][620]LogWorld: Bringing up level for play took: 0.001262
+[2017.07.29-03.11.45:671][620]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 0.57
+[2017.07.29-03.11.46:823][677]LogBlueprintUserMessages: [PC_CameraRig_C_0] drop
+[2017.07.29-03.11.49:040][786]LogBlueprintUserMessages: [PC_CameraRig_C_0] drop
+[2017.07.29-03.11.50:447][855]LogBlueprintUserMessages: [PC_CameraRig_C_0] drop
+[2017.07.29-03.11.52:961][978]LogBlueprintUserMessages: [PC_CameraRig_C_0] NoDrop
+[2017.07.29-03.11.53:978][ 28]LogBlueprintUserMessages: [PC_CameraRig_C_0] NoDrop
+[2017.07.29-03.11.55:181][ 87]LogBlueprintUserMessages: [PC_CameraRig_C_0] drop
+[2017.07.29-03.11.55:896][122]LogBlueprintUserMessages: [PC_CameraRig_C_0] NoDrop
+[2017.07.29-03.11.58:766][263]LogBlueprintUserMessages: [PC_CameraRig_C_0] NoDrop
+[2017.07.29-03.12.02:530][448]LogBlueprintUserMessages: [PC_CameraRig_C_0] NoDrop
+[2017.07.29-03.12.04:621][551]LogBlueprintUserMessages: [PC_CameraRig_C_0] drop
+[2017.07.29-03.12.05:085][574]LogBlueprintUserMessages: [PC_CameraRig_C_0] drop
+[2017.07.29-03.12.05:451][592]LogBlueprintUserMessages: [PC_CameraRig_C_0] drop
+[2017.07.29-03.12.51:472][302]BlueprintLog: New page: Compile PC_CameraRig
+[2017.07.29-03.12.52:385][321]LogSavePackage: Save=56.05ms
+[2017.07.29-03.12.52:385][321]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/PC_CameraRig6DDDBE434187495FBF06F38BEAB1E4E5.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset'
+[2017.07.29-03.12.52:393][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset
+[2017.07.29-03.13.32:689][605]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent   conflicted with  ActionEvent  and was replaced as a Custom Event!
+[2017.07.29-03.13.32:733][605]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  ActionEvent  and was replaced as a Custom Event!
+[2017.07.29-03.15.06:769][800]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-03.15.07:858][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-03.15.07:979][822]LogSavePackage: Save=104.54ms
+[2017.07.29-03.15.07:979][822]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_PeonEA0746EB4894A3D1F34CDF85DB635D5E.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-03.15.07:983][822]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-03.15.14:631][ 20]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-03.15.15:329][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-03.15.15:421][ 29]LogSavePackage: Save=86.50ms
+[2017.07.29-03.15.15:421][ 29]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_PeonE04527A74A1F91B609C0C6B60E906BF7.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-03.15.15:423][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-03.15.18:549][139]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-03.15.18:601][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-03.15.18:602][139]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 7:15:18 PM)
+[2017.07.29-03.15.18:602][139]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-03.15.18:608][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005924s)
+[2017.07.29-03.15.18:608][139]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-03.15.18:609][139]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2017.07.29-03.15.18:609][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.007198s)
+[2017.07.29-03.15.18:652][139]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-03.15.18:676][139]LogInit: FAudioDevice initialized.
+[2017.07.29-03.15.18:713][139]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-03.15.18:715][139]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-23.15.18
+[2017.07.29-03.15.18:715][139]LogWorld: Bringing up level for play took: 0.001340
+[2017.07.29-03.15.18:717][139]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.384
+[2017.07.29-03.16.21:452][494]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-03.16.22:189][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-03.16.22:281][506]LogSavePackage: Save=87.52ms
+[2017.07.29-03.16.22:281][506]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon4C30FEB44806CA7E9DDBC29C4CAE184A.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-03.16.22:285][506]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-03.16.26:409][659]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-03.16.28:396][738]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-03.16.28:436][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-03.16.28:436][738]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 7:16:28 PM)
+[2017.07.29-03.16.28:436][738]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-03.16.28:445][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008594s)
+[2017.07.29-03.16.28:446][738]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-03.16.28:446][738]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2017.07.29-03.16.28:446][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.009865s)
+[2017.07.29-03.16.28:488][738]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-03.16.28:498][738]LogInit: FAudioDevice initialized.
+[2017.07.29-03.16.28:543][738]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-03.16.28:546][738]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-23.16.28
+[2017.07.29-03.16.28:547][738]LogWorld: Bringing up level for play took: 0.002766
+[2017.07.29-03.16.28:550][738]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.551
+[2017.07.29-03.16.29:360][776]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 28
+[2017.07.29-03.16.29:360][776]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:ClearSelectionDispatcher_Event_0
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:ExecuteUbergraph_BP_Peon
+
+[2017.07.29-03.16.42:694][978]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 28
+[2017.07.29-03.16.42:694][978]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:ClearSelectionDispatcher_Event_0
+	Function /Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon_C:ExecuteUbergraph_BP_Peon
+
+[2017.07.29-03.18.43:768][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Logic/GM_LD39" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset" SILENT=true
+[2017.07.29-03.18.43:823][132]LogSavePackage: Save=17.82ms
+[2017.07.29-03.18.43:823][132]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/GM_LD3934BEC0C54C5A74EFE55F7F8E6E7F7AA4.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset'
+[2017.07.29-03.18.43:826][132]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset
+[2017.07.29-03.18.51:528][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-03.18.51:670][285]LogSavePackage: Save=74.62ms
+[2017.07.29-03.18.51:670][285]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap1D752BDA342871CACAD6F89AC04DDCA38.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-03.18.51:678][285]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-03.18.51:713][285]LogFileHelpers: Saving map 'TestMap1' took 2.307
+[2017.07.29-03.23.03:466][877]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-03.23.06:362][974]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-03.23.06:400][974]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.29-03.23.06:400][974]LogPlayLevel: [PlayLevel] Compiling PC_CameraRig before play...
+[2017.07.29-03.23.06:560][974]LogPlayLevel: PlayLevel: Blueprint regeneration took 159 ms (1 blueprints)
+[2017.07.29-03.23.06:560][974]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 7:23:06 PM)
+[2017.07.29-03.23.06:561][974]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-03.23.06:567][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006200s)
+[2017.07.29-03.23.06:568][974]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-03.23.06:568][974]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2017.07.29-03.23.06:568][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.007647s)
+[2017.07.29-03.23.06:611][974]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-03.23.06:624][974]LogInit: FAudioDevice initialized.
+[2017.07.29-03.23.06:657][974]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-03.23.06:659][974]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-23.23.06
+[2017.07.29-03.23.06:659][974]LogWorld: Bringing up level for play took: 0.001342
+[2017.07.29-03.23.06:661][974]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.439
+[2017.07.29-03.23.26:766][592]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.29-03.23.34:381][800]BlueprintLog: New page: Compile PC_CameraRig
+[2017.07.29-03.23.35:649][831]LogSavePackage: Save=41.28ms
+[2017.07.29-03.23.35:649][831]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/PC_CameraRig438C49F04395BBC0C7CAAAB9C2AA89C4.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset'
+[2017.07.29-03.23.35:653][831]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset
+[2017.07.29-03.25.52:090][310]BlueprintLog: New page: Compile BP_RtsCameraRig
+[2017.07.29-03.25.52:927][325]LogSavePackage: Save=42.35ms
+[2017.07.29-03.25.52:927][325]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_RtsCameraRigE218CB44482904AB3AF7479165822B7A.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset'
+[2017.07.29-03.25.52:929][325]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset
+[2017.07.29-03.26.19:752][183]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-03.26.20:699][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-03.26.20:791][199]LogSavePackage: Save=80.68ms
+[2017.07.29-03.26.20:791][199]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon790369DE458954EAA2ADAA8F54774DD7.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-03.26.20:795][199]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-03.28.34:639][ 41]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-03.28.35:377][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-03.28.35:466][ 50]LogSavePackage: Save=84.05ms
+[2017.07.29-03.28.35:466][ 50]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_PeonAFD55CE04D89D35EB05E50A998455137.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-03.28.35:467][ 50]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-03.30.04:738][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-03.30.04:818][764]LogSavePackage: Save=75.05ms
+[2017.07.29-03.30.04:818][764]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon9F53B0A74C8D6754CDBE4881740D9CC9.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-03.30.04:820][764]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-03.30.35:381][662]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-03.30.37:649][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.29-03.30.37:780][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.29-03.30.37:983][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.29-03.30.38:147][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
