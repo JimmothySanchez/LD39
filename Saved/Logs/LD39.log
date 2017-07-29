@@ -1,9 +1,9 @@
-﻿Log file open, 07/28/17 21:34:47
+﻿Log file open, 07/28/17 21:37:37
 LogInit:Display: Running engine for game: LD39
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(30778519) SRandInit(30778520).
+LogInit:Display: RandInit(427543383) SRandInit(427543383).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.097405
+LogStats: Stats thread started at 0.112383
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,444 +50,577 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.07.29-01.34.48:611][  0]LogInit: Selected Device Profile: [Windows]
-[2017.07.29-01.34.48:611][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.07.29-01.34.48:624][  0]LogInit: Computer: DESKTOP-MVS60O6
-[2017.07.29-01.34.48:624][  0]LogInit: User: cisze
-[2017.07.29-01.34.48:624][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.07.29-01.34.48:624][  0]LogInit: High frequency timer resolution =2.343772 MHz
-[2017.07.29-01.34.48:625][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.07.29-01.34.48:625][  0]LogMemory: Platform Memory Stats for Windows
-[2017.07.29-01.34.48:625][  0]LogMemory: Process Physical Memory: 271.79 MB used, 271.79 MB peak
-[2017.07.29-01.34.48:625][  0]LogMemory: Process Virtual Memory: 258.45 MB used, 258.45 MB peak
-[2017.07.29-01.34.48:625][  0]LogMemory: Physical Memory: 5792.46 MB used,  2282.59 MB free, 8075.06 MB total
-[2017.07.29-01.34.48:625][  0]LogMemory: Virtual Memory: 634.02 MB used,  2282.59 MB free, 134217728.00 MB total
-[2017.07.29-01.34.48:710][  0]LogInit: Using OS detected language (en-US).
-[2017.07.29-01.34.48:710][  0]LogInit: Using OS detected locale (en-US).
-[2017.07.29-01.34.48:713][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.07.29-01.34.49:904][  0]LogD3D11RHI: D3D11 adapters:
-[2017.07.29-01.34.49:960][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
-[2017.07.29-01.34.49:960][  0]LogD3D11RHI:       2020/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.07.29-01.34.49:968][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
-[2017.07.29-01.34.49:968][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.07.29-01.34.49:969][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.07.29-01.34.49:969][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.07.29-01.34.49:969][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.07.29-01.34.49:978][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.07.29-01.34.49:978][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
-[2017.07.29-01.34.49:978][  0]LogWindows: EnumDisplayDevices:
-[2017.07.29-01.34.49:978][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
-[2017.07.29-01.34.49:978][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2017.07.29-01.34.49:979][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2017.07.29-01.34.49:979][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.07.29-01.34.49:979][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
-[2017.07.29-01.34.49:979][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.07.29-01.34.49:979][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.07.29-01.34.49:979][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.07.29-01.34.50:007][  0]LogD3D11RHI: Async texture creation enabled
-[2017.07.29-01.34.50:027][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.07.29-01.34.50:028][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (../../../../../../Projects/test/LD39/Intermediate/Shaders/WorkingDirectory/1636/).
-[2017.07.29-01.34.50:028][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cisze/AppData/Local/Temp/UnrealShaderWorkingDir/CC892CF240F13FF2739493B8B9387B74/'.
-[2017.07.29-01.34.50:028][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.07.29-01.34.52:368][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.07.29-01.34.52:426][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.07.29-01.34.52:484][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.07.29-01.34.52:545][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.07.29-01.34.52:604][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.07.29-01.34.52:664][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.07.29-01.34.52:727][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.07.29-01.34.52:786][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.07.29-01.34.52:840][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.07.29-01.34.52:897][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.07.29-01.34.52:955][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.07.29-01.34.53:011][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.07.29-01.34.53:069][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.07.29-01.34.53:127][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.07.29-01.34.53:190][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.07.29-01.34.53:310][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.07.29-01.34.53:311][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.07.29-01.34.53:359][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.07.29-01.34.53:466][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.07.29-01.34.53:499][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.07.29-01.34.53:557][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.07.29-01.34.53:616][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.07.29-01.34.53:681][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.07.29-01.34.53:738][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.07.29-01.34.53:738][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.07.29-01.34.54:333][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.07.29-01.34.54:468][  0]LogDerivedDataCache: Loaded boot cache 0.13s 90MB C:/Users/cisze/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.07.29-01.34.54:468][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/cisze/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.07.29-01.34.54:468][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projects/test/LD39/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.07.29-01.34.54:468][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.07.29-01.34.54:468][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Projects/test/LD39/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.07.29-01.34.54:468][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.07.29-01.34.54:488][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.07.29-01.34.54:501][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cisze/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.07.29-01.34.54:512][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.07.29-01.34.54:513][  0]LogSlate: Using Freetype 2.6.0
-[2017.07.29-01.34.54:513][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.07.29-01.34.54:513][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.07.29-01.34.54:910][  0]LogInit: Selected Device Profile: [Windows]
-[2017.07.29-01.34.55:025][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.07.29-01.34.55:222][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.07.29-01.34.55:279][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.07.29-01.34.55:336][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.07.29-01.34.55:336][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.07.29-01.34.55:336][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.07.29-01.34.56:107][  0]LogNetVersion: LD39 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 614156085)
-[2017.07.29-01.34.56:185][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
-[2017.07.29-01.34.56:280][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.061741 seconds
-[2017.07.29-01.34.56:287][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.07.29-01.34.56:287][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.07.29-01.34.56:287][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.07.29-01.34.56:389][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.07.29-01.34.59:664][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.07.29-01.34.59:718][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.07.29-01.35.00:346][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.07.29-01.35.00:837][  0]SourceControl: Info Source control is disabled
-[2017.07.29-01.35.00:837][  0]SourceControl: Info Source control is disabled
-[2017.07.29-01.35.00:897][  0]SourceControl: Info Source control is disabled
-[2017.07.29-01.35.00:952][  0]SourceControl: Info Source control is disabled
-[2017.07.29-01.35.01:751][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.07.29-01.35.02:516][  0]LogEngine: Initializing Engine...
-[2017.07.29-01.35.02:517][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.07.29-01.35.02:862][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.07.29-01.35.02:862][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.07.29-01.35.03:014][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.07.29-01.35.03:023][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.07.29-01.35.03:074][  0]LogInit: FAudioDevice initialized.
-[2017.07.29-01.35.03:141][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/cisze/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.07.29-01.35.03:158][  0]LogInit: Texture streaming: Enabled
-[2017.07.29-01.35.03:297][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.07.29-01.35.03:598][  0]LogInit: Transaction tracking system initialized
-[2017.07.29-01.35.03:985][  0]BlueprintLog: New page: Editor Load
-[2017.07.29-01.35.05:210][  0]LocalizationService: Info Localization service is disabled
-[2017.07.29-01.35.06:047][  0]LogConsoleResponse:Display: 
-[2017.07.29-01.35.06:235][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/test/LD39/Content/' took 0.01s
-[2017.07.29-01.35.06:235][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.07.29-01.35.06:236][  0]LogCook:Display: Mobile HDR setting 1
-[2017.07.29-01.35.07:518][  0]SourceControl: Info Source control is disabled
-[2017.07.29-01.35.07:518][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.07.29-01.35.07:518][  0]LightingResults: New page: Lighting Build
-[2017.07.29-01.35.07:576][  0]MapCheck: New page: Map Check
-[2017.07.29-01.35.07:576][  0]LightingResults: New page: Lighting Build
-[2017.07.29-01.35.07:846][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.07.29-01.35.07:850][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.07.29-01.35.07:856][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.07.29-01.35.07:887][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.07.29-01.35.07:943][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.452ms to complete.
-[2017.07.29-01.35.07:943][  0]LogFileHelpers: Loading map 'Template_Default' took 0.425
-[2017.07.29-01.35.08:009][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.07.29-01.35.08:009][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.07.29-01.35.08:118][  0]LogCollectionManager: Loaded 0 collections in 0.001940 seconds
-[2017.07.29-01.35.08:219][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/test/LD39/Saved/Collections/' took 0.01s
-[2017.07.29-01.35.08:219][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/test/LD39/Content/Developers/cisze/Collections/' took 0.01s
-[2017.07.29-01.35.08:219][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/test/LD39/Content/Collections/' took 0.01s
-[2017.07.29-01.35.08:219][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.07.29-01.35.08:231][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2329 classes and 491 folders.
-[2017.07.29-01.35.08:322][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2017.07.29-01.35.08:371][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.07.29-01.35.08:428][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.07.29-01.35.08:477][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.07.29-01.35.08:487][  0]LogSlate: Took 0.000723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.07.29-01.35.08:491][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.07.29-01.35.08:507][  0]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.07.29-01.35.08:664][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
-[2017.07.29-01.35.08:850][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.07.29-01.35.08:921][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.07.29-01.35.08:922][  0]LogLoad: (Engine Initialization) Total time: 22.26 seconds
-[2017.07.29-01.35.08:922][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
-[2017.07.29-01.35.08:922][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.07.29-01.35.08:944][  0]LogOcInput: OculusInput pre-init called
-[2017.07.29-01.35.08:944][  0]LogHMD: Starting GearVRController plugin
-[2017.07.29-01.35.08:972][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.07.29-01.35.08:999][  1]LogAssetRegistry: Asset discovery search completed in 12.8374 seconds
-[2017.07.29-01.35.09:000][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.07.29-01.35.09:000][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
-[2017.07.29-01.35.11:189][ 95]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.07.29-01.35.11:190][ 95]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.07.29-01.35.11:195][ 95]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.07.29-01.35.11:196][ 95]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.07.29-01.35.11:405][ 96]Cmd: QUIT_EDITOR
-[2017.07.29-01.35.11:438][ 96]LogExit: Preparing to exit.
-[2017.07.29-01.35.11:857][ 96]LogDirectoryWatcher: A directory notification for 'C:/Projects/test/LD39/Content/' was aborted.
-[2017.07.29-01.35.11:885][ 96]LogExit: Editor shut down
-[2017.07.29-01.35.11:890][ 96]LogExit: Transaction tracking system shut down
-[2017.07.29-01.35.11:963][ 96]LogObj: Freed 0b from 0 cluster array pools.
-[2017.07.29-01.35.11:963][ 96]LogExit: Object subsystem successfully closed.
-[2017.07.29-01.35.12:084][ 96]LogD3D11RHI: Shutdown
-[2017.07.29-01.35.12:084][ 96]LogD3D11RHI: CleanupD3DDevice
-[2017.07.29-01.35.12:536][ 96]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.07.29-01.35.12:558][ 96]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
-[2017.07.29-01.35.12:558][ 96]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
-[2017.07.29-01.35.12:558][ 96]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
-[2017.07.29-01.35.12:558][ 96]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
-[2017.07.29-01.35.12:558][ 96]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
-[2017.07.29-01.35.12:559][ 96]LogDirectoryWatcher: A directory notification for 'C:/Projects/test/LD39/Content/Collections/' was aborted.
-[2017.07.29-01.35.12:559][ 96]LogDirectoryWatcher: A directory notification for 'C:/Projects/test/LD39/Content/Developers/cisze/Collections/' was aborted.
-[2017.07.29-01.35.12:559][ 96]LogDirectoryWatcher: A directory notification for 'C:/Projects/test/LD39/Saved/Collections/' was aborted.
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module BspMode (494)
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
-[2017.07.29-01.35.12:559][ 96]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module Media (471)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module SessionServices (458)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
-[2017.07.29-01.35.12:560][ 96]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module MergeActors (428)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module SizeMap (426)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module TreeMap (424)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module XmlParser (408)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module Blutility (406)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
-[2017.07.29-01.35.12:620][ 96]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
-[2017.07.29-01.35.12:621][ 96]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
-[2017.07.29-01.35.12:621][ 96]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
-[2017.07.29-01.35.12:621][ 96]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
-[2017.07.29-01.35.12:621][ 96]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
-[2017.07.29-01.35.12:621][ 96]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
-[2017.07.29-01.35.12:621][ 96]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
-[2017.07.29-01.35.12:621][ 96]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
-[2017.07.29-01.35.12:675][ 96]LogModuleManager: Shutting down and abandoning module AutomationController (386)
-[2017.07.29-01.35.12:675][ 96]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
-[2017.07.29-01.35.12:675][ 96]LogModuleManager: Shutting down and abandoning module Layers (382)
-[2017.07.29-01.35.12:675][ 96]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
-[2017.07.29-01.35.12:675][ 96]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
-[2017.07.29-01.35.12:675][ 96]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
-[2017.07.29-01.35.12:675][ 96]LogModuleManager: Shutting down and abandoning module Persona (374)
-[2017.07.29-01.35.12:675][ 96]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
-[2017.07.29-01.35.12:675][ 96]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
-[2017.07.29-01.35.12:675][ 96]LogModuleManager: Shutting down and abandoning module Kismet (368)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module Toolbox (364)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module OutputLog (358)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module GammaUI (356)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module Documentation (354)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module MovieScene (350)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module Niagara (348)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module PortalServices (340)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module AIModule (334)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
-[2017.07.29-01.35.12:676][ 96]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module SteamVR (322)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module OculusInput (314)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module CableComponent (308)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
-[2017.07.29-01.35.12:727][ 96]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
-[2017.07.29-01.35.12:728][ 96]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
-[2017.07.29-01.35.12:728][ 96]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
-[2017.07.29-01.35.12:728][ 96]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
-[2017.07.29-01.35.12:728][ 96]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
-[2017.07.29-01.35.12:728][ 96]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
-[2017.07.29-01.35.12:728][ 96]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
-[2017.07.29-01.35.12:728][ 96]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
-[2017.07.29-01.35.12:728][ 96]LogModuleManager: Shutting down and abandoning module SourceControl (267)
-[2017.07.29-01.35.12:728][ 96]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
-[2017.07.29-01.35.12:728][ 96]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
-[2017.07.29-01.35.12:728][ 96]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
-[2017.07.29-01.35.12:728][ 96]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
-[2017.07.29-01.35.12:728][ 96]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
-[2017.07.29-01.35.12:728][ 96]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
-[2017.07.29-01.35.12:729][ 96]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
-[2017.07.29-01.35.12:729][ 96]LogModuleManager: Shutting down and abandoning module MainFrame (252)
-[2017.07.29-01.35.12:729][ 96]LogModuleManager: Shutting down and abandoning module HotReload (251)
-[2017.07.29-01.35.12:729][ 96]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
-[2017.07.29-01.35.12:729][ 96]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
-[2017.07.29-01.35.12:729][ 96]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
-[2017.07.29-01.35.12:729][ 96]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
-[2017.07.29-01.35.12:729][ 96]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
-[2017.07.29-01.35.12:729][ 96]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
-[2017.07.29-01.35.12:829][ 96]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
-[2017.07.29-01.35.12:930][ 96]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2017.07.29-01.35.12:930][ 96]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2017.07.29-01.35.12:930][ 96]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2017.07.29-01.35.12:930][ 96]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2017.07.29-01.35.12:930][ 96]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2017.07.29-01.35.12:930][ 96]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2017.07.29-01.35.12:931][ 96]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2017.07.29-01.35.12:931][ 96]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2017.07.29-01.35.12:931][ 96]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2017.07.29-01.35.12:931][ 96]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2017.07.29-01.35.12:931][ 96]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2017.07.29-01.35.12:931][ 96]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2017.07.29-01.35.12:931][ 96]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2017.07.29-01.35.12:931][ 96]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2017.07.29-01.35.12:931][ 96]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2017.07.29-01.35.12:932][ 96]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2017.07.29-01.35.12:932][ 96]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2017.07.29-01.35.12:932][ 96]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2017.07.29-01.35.12:932][ 96]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2017.07.29-01.35.12:932][ 96]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2017.07.29-01.35.12:932][ 96]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2017.07.29-01.35.12:932][ 96]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2017.07.29-01.35.12:932][ 96]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2017.07.29-01.35.12:932][ 96]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2017.07.29-01.35.12:933][ 96]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2017.07.29-01.35.12:933][ 96]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2017.07.29-01.35.12:933][ 96]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2017.07.29-01.35.12:933][ 96]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2017.07.29-01.35.12:933][ 96]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2017.07.29-01.35.12:936][ 96]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2017.07.29-01.35.12:936][ 96]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2017.07.29-01.35.12:936][ 96]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2017.07.29-01.35.12:936][ 96]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2017.07.29-01.35.12:936][ 96]LogModuleManager: Shutting down and abandoning module Core (164)
-[2017.07.29-01.35.12:936][ 96]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2017.07.29-01.35.13:128][ 96]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.07.29-01.35.13:128][ 96]LogDirectoryWatcher: A directory notification for '../../../../../../Projects/test/LD39/Content/' was aborted.
-[2017.07.29-01.35.13:128][ 96]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.07.29-01.35.13:128][ 96]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2017.07.29-01.35.13:130][ 96]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2017.07.29-01.35.13:131][ 96]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2017.07.29-01.35.13:132][ 96]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2017.07.29-01.35.13:132][ 96]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2017.07.29-01.35.13:132][ 96]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2017.07.29-01.35.13:132][ 96]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2017.07.29-01.35.13:132][ 96]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2017.07.29-01.35.13:132][ 96]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2017.07.29-01.35.13:132][ 96]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.07.29-01.35.13:509][ 96]LogDerivedDataCache: Shutdown
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.07.29-01.35.13:509][ 96]LogOnline:Display: Unloading online subsystem: NULL
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.07.29-01.35.13:509][ 96]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.07.29-01.35.13:509][ 96]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.07.29-01.35.13:509][ 96]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC6B6849F-459F-4EB5-221F-F59B31CFB380%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=4d1877404add3f289b9523aca8edae78%7Cabc6c7a2a0234cce8418fd6092aac18c%7C8b4db165-de72-4cd0-9bd1-150bffbb7ade&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.07.29-01.35.13:513][ 96]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.07.29-01.35.13:515][ 96]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2017.07.29-01.35.13:515][ 96]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2017.07.29-01.35.13:515][ 96]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2017.07.29-01.35.13:515][ 96]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.07.29-01.35.13:515][ 96]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.07.29-01.35.13:515][ 96]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.07.29-01.35.13:515][ 96]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.07.29-01.35.13:515][ 96]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.07.29-01.35.13:516][ 96]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.07.29-01.35.13:517][ 96]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.07.29-01.35.13:517][ 96]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.07.29-01.35.13:517][ 96]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.07.29-01.35.13:517][ 96]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.07.29-01.35.13:517][ 96]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.07.29-01.35.13:517][ 96]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.07.29-01.35.13:517][ 96]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.07.29-01.35.13:517][ 96]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.07.29-01.35.13:517][ 96]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.07.29-01.35.13:523][ 96]LogExit: Exiting.
-[2017.07.29-01.35.13:540][ 96]Log file closed, 07/28/17 21:35:13
+[2017.07.29-01.37.37:944][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.29-01.37.37:944][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.29-01.37.37:957][  0]LogInit: Computer: DESKTOP-MVS60O6
+[2017.07.29-01.37.37:957][  0]LogInit: User: cisze
+[2017.07.29-01.37.37:957][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.07.29-01.37.37:957][  0]LogInit: High frequency timer resolution =2.343772 MHz
+[2017.07.29-01.37.37:957][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.07.29-01.37.37:957][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.29-01.37.37:957][  0]LogMemory: Process Physical Memory: 272.52 MB used, 272.52 MB peak
+[2017.07.29-01.37.37:957][  0]LogMemory: Process Virtual Memory: 266.32 MB used, 266.32 MB peak
+[2017.07.29-01.37.37:957][  0]LogMemory: Physical Memory: 5724.36 MB used,  2350.70 MB free, 8075.06 MB total
+[2017.07.29-01.37.37:957][  0]LogMemory: Virtual Memory: 642.02 MB used,  2350.70 MB free, 134217728.00 MB total
+[2017.07.29-01.37.38:041][  0]LogInit: Using OS detected language (en-US).
+[2017.07.29-01.37.38:041][  0]LogInit: Using OS detected locale (en-US).
+[2017.07.29-01.37.38:044][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.29-01.37.39:295][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.29-01.37.39:353][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
+[2017.07.29-01.37.39:353][  0]LogD3D11RHI:       2020/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.29-01.37.39:364][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.07.29-01.37.39:364][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.07.29-01.37.39:368][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.29-01.37.39:368][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.29-01.37.39:368][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.29-01.37.39:379][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.29-01.37.39:379][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.29-01.37.39:379][  0]LogWindows: EnumDisplayDevices:
+[2017.07.29-01.37.39:379][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.07.29-01.37.39:380][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.07.29-01.37.39:380][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.07.29-01.37.39:380][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.07.29-01.37.39:380][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
+[2017.07.29-01.37.39:380][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.07.29-01.37.39:380][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.07.29-01.37.39:380][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.29-01.37.39:420][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.29-01.37.39:442][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.29-01.37.39:443][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Projects/LD39/Intermediate/Shaders/WorkingDirectory/5900/).
+[2017.07.29-01.37.39:443][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cisze/AppData/Local/Temp/UnrealShaderWorkingDir/B80A9B6A41A5EC2BDDC9618449B9AC1D/'.
+[2017.07.29-01.37.39:443][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.29-01.37.42:117][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.29-01.37.42:196][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.29-01.37.42:270][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.29-01.37.42:355][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.29-01.37.42:429][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.29-01.37.42:544][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.29-01.37.42:635][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.29-01.37.42:715][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.29-01.37.42:776][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.29-01.37.42:843][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.29-01.37.42:905][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.29-01.37.42:965][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.29-01.37.43:028][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.29-01.37.43:085][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.29-01.37.43:146][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.29-01.37.43:317][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.29-01.37.43:317][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.29-01.37.43:391][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.29-01.37.43:502][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.29-01.37.43:543][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.29-01.37.43:614][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.29-01.37.43:681][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.29-01.37.43:739][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.29-01.37.43:794][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.29-01.37.43:794][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.29-01.37.44:438][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.29-01.37.44:573][  0]LogDerivedDataCache: Loaded boot cache 0.13s 90MB C:/Users/cisze/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.29-01.37.44:573][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/cisze/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.29-01.37.44:574][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projects/LD39/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.29-01.37.44:574][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.29-01.37.44:574][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Projects/LD39/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.29-01.37.44:574][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.29-01.37.44:593][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.29-01.37.44:605][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cisze/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.29-01.37.44:623][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.29-01.37.44:624][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.29-01.37.44:624][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.29-01.37.44:624][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.29-01.37.45:009][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.29-01.37.45:122][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.29-01.37.45:313][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.29-01.37.45:369][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.29-01.37.45:432][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.29-01.37.45:432][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.29-01.37.45:432][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.29-01.37.46:200][  0]LogNetVersion: LD39 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 614156085)
+[2017.07.29-01.37.46:278][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2017.07.29-01.37.46:356][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.046442 seconds
+[2017.07.29-01.37.46:363][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.29-01.37.46:363][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.07.29-01.37.46:363][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.29-01.37.46:449][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.29-01.37.49:541][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.29-01.37.49:590][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.29-01.37.50:236][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.29-01.37.50:750][  0]SourceControl: Info Source control is disabled
+[2017.07.29-01.37.50:751][  0]SourceControl: Info Source control is disabled
+[2017.07.29-01.37.50:851][  0]SourceControl: Info Source control is disabled
+[2017.07.29-01.37.50:935][  0]SourceControl: Info Source control is disabled
+[2017.07.29-01.37.51:843][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.29-01.37.52:595][  0]LogEngine: Initializing Engine...
+[2017.07.29-01.37.52:595][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.29-01.37.52:867][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.29-01.37.52:867][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.29-01.37.53:032][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.29-01.37.53:041][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-01.37.53:088][  0]LogInit: FAudioDevice initialized.
+[2017.07.29-01.37.53:152][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/cisze/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.29-01.37.53:175][  0]LogInit: Texture streaming: Enabled
+[2017.07.29-01.37.53:296][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.29-01.37.53:558][  0]LogInit: Transaction tracking system initialized
+[2017.07.29-01.37.53:940][  0]BlueprintLog: New page: Editor Load
+[2017.07.29-01.37.55:038][  0]LocalizationService: Info Localization service is disabled
+[2017.07.29-01.37.55:847][  0]LogConsoleResponse:Display: 
+[2017.07.29-01.37.56:057][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.29-01.37.56:057][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/LD39/Content/' took 0.01s
+[2017.07.29-01.37.56:057][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.29-01.37.57:264][  0]SourceControl: Info Source control is disabled
+[2017.07.29-01.37.57:264][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.29-01.37.57:265][  0]LightingResults: New page: Lighting Build
+[2017.07.29-01.37.57:313][  0]MapCheck: New page: Map Check
+[2017.07.29-01.37.57:313][  0]LightingResults: New page: Lighting Build
+[2017.07.29-01.37.57:563][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.29-01.37.57:564][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.29-01.37.57:570][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.29-01.37.57:600][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.29-01.37.57:655][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.682ms to complete.
+[2017.07.29-01.37.57:655][  0]LogFileHelpers: Loading map 'Template_Default' took 0.391
+[2017.07.29-01.37.57:738][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.29-01.37.57:739][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.29-01.37.57:865][  0]LogCollectionManager: Loaded 0 collections in 0.001804 seconds
+[2017.07.29-01.37.57:954][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/LD39/Saved/Collections/' took 0.01s
+[2017.07.29-01.37.57:954][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/LD39/Content/Developers/cisze/Collections/' took 0.01s
+[2017.07.29-01.37.57:955][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/LD39/Content/Collections/' took 0.01s
+[2017.07.29-01.37.57:955][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.29-01.37.57:968][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2329 classes and 491 folders.
+[2017.07.29-01.37.58:048][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.29-01.37.58:092][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.29-01.37.58:146][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.07.29-01.37.58:193][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.29-01.37.58:201][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.29-01.37.58:205][  0]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.29-01.37.58:222][  0]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.29-01.37.58:402][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.07.29-01.37.58:595][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.29-01.37.58:674][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.07.29-01.37.58:674][  0]LogLoad: (Engine Initialization) Total time: 22.74 seconds
+[2017.07.29-01.37.58:674][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.07.29-01.37.58:674][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.29-01.37.58:722][  0]LogOcInput: OculusInput pre-init called
+[2017.07.29-01.37.58:722][  0]LogHMD: Starting GearVRController plugin
+[2017.07.29-01.37.58:747][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.29-01.37.58:782][  1]LogAssetRegistry: Asset discovery search completed in 12.5259 seconds
+[2017.07.29-01.37.58:784][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.07.29-01.37.58:784][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2017.07.29-01.37.59:687][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-01.38.27:706][264]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.29-01.39.04:142][906]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.29-01.39.05:028][935]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LD39
+[2017.07.29-01.39.05:028][935]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.29-01.39.05:028][935]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.07.29-01.39.05:028][935]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.29-01.39.05:053][936]LogTemp: BranchPath = DESKTOP-MVS60O6/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-MVS60O6/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.07.29-01.39.05:206][942]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\cisze\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.07.29-01.41.45:380][547]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.29-01.42.13:105][149]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.07.29-01.42.13:917][149]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.29-01.42.14:161][149]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:1).
+[2017.07.29-01.42.17:081][210]LogSlate: Took 0.020898 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.29-01.44.27:574][768]BlueprintLog: New page: Compile BP_RtsCameraRig
+[2017.07.29-01.44.28:227][775]LogSavePackage: Save=23.80ms
+[2017.07.29-01.44.28:227][775]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_RtsCameraRig601F850D4836F33715A479BE29DBBFAD.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset'
+[2017.07.29-01.44.28:230][775]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset
+[2017.07.29-01.44.29:236][798]LogSlate: Took 0.004616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.29-01.46.04:449][629]BlueprintLog: New page: Compile BP_RtsCameraRig
+[2017.07.29-01.47.23:341][480]BlueprintLog: New page: Compile BP_RtsCameraRig
+[2017.07.29-01.47.24:157][498]LogSavePackage: Save=35.94ms
+[2017.07.29-01.47.24:157][498]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_RtsCameraRigFDBB591045F4712718C0CCBDC5E41B5F.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset'
+[2017.07.29-01.47.24:161][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset
+[2017.07.29-01.47.30:698][739]LogEditorViewport: Clicking on Actor (LMB): BP_RtsCameraRig_C (BP_RtsCameraRig)
+[2017.07.29-01.47.36:289][955]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.29-01.47.37:394][995]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-01.47.37:447][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-01.47.37:453][995]PIE: New page: PIE session: Untitled_1 (Jul 28, 2017, 5:47:37 PM)
+[2017.07.29-01.47.37:454][995]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.07.29-01.47.37:460][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005604s)
+[2017.07.29-01.47.37:461][995]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.29-01.47.37:462][995]LogPlayLevel: PIE: World Init took: (0.001657s)
+[2017.07.29-01.47.37:462][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008428s)
+[2017.07.29-01.47.37:502][995]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-01.47.37:517][995]LogInit: FAudioDevice initialized.
+[2017.07.29-01.47.37:568][995]LogLoad: Game class is 'GameModeBase'
+[2017.07.29-01.47.37:584][995]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.07.28-21.47.37
+[2017.07.29-01.47.37:586][995]LogWorld: Bringing up level for play took: 0.003814
+[2017.07.29-01.47.37:655][995]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.07.29-01.47.37:660][995]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.56
+[2017.07.29-01.47.55:883][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-01.47.56:602][903]LogEditorViewport: Clicking on Actor (LMB): BP_RtsCameraRig_C (BP_RtsCameraRig)
+[2017.07.29-01.48.05:203][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-01.48.06:012][228]LogEditorViewport: Clicking on Actor (LMB): BP_RtsCameraRig_C (BP_RtsCameraRig)
+[2017.07.29-01.48.06:785][251]LogEditorViewport: Clicking on Actor (LMB): BP_RtsCameraRig_C (BP_RtsCameraRig)
+[2017.07.29-01.48.09:909][359]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-01.48.09:927][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-01.48.09:927][359]PIE: New page: PIE session: Untitled_1 (Jul 28, 2017, 5:48:09 PM)
+[2017.07.29-01.48.09:928][359]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.07.29-01.48.09:930][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002107s)
+[2017.07.29-01.48.09:930][359]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.29-01.48.09:930][359]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2017.07.29-01.48.09:931][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003272s)
+[2017.07.29-01.48.10:001][359]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-01.48.10:011][359]LogInit: FAudioDevice initialized.
+[2017.07.29-01.48.10:046][359]LogLoad: Game class is 'GameModeBase'
+[2017.07.29-01.48.10:047][359]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.07.28-21.48.10
+[2017.07.29-01.48.10:048][359]LogWorld: Bringing up level for play took: 0.001410
+[2017.07.29-01.48.10:049][359]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.949
+[2017.07.29-01.49.25:978][181]BlueprintLog: New page: Compile BP_RtsCameraRig
+[2017.07.29-01.49.27:049][196]LogSavePackage: Save=36.00ms
+[2017.07.29-01.49.27:049][196]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_RtsCameraRig69152B8F4559E99A0DAE5F85BA451CFF.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset'
+[2017.07.29-01.49.27:052][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset
+[2017.07.29-01.49.27:470][203]LogSavePackage: Save=34.59ms
+[2017.07.29-01.49.27:470][203]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_RtsCameraRig1118EFE54C0B05E776ED0DA5B26B6A75.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset'
+[2017.07.29-01.49.27:472][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset
+[2017.07.29-01.53.24:359][344]BlueprintLog: New page: Compile BP_RtsCameraRig
+[2017.07.29-01.53.28:515][462]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-01.53.28:532][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-01.53.28:533][462]PIE: New page: PIE session: Untitled_1 (Jul 28, 2017, 5:53:28 PM)
+[2017.07.29-01.53.28:533][462]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.07.29-01.53.28:536][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003495s)
+[2017.07.29-01.53.28:537][462]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.29-01.53.28:537][462]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2017.07.29-01.53.28:537][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004515s)
+[2017.07.29-01.53.28:606][462]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-01.53.28:617][462]LogInit: FAudioDevice initialized.
+[2017.07.29-01.53.28:662][462]LogLoad: Game class is 'GameModeBase'
+[2017.07.29-01.53.28:667][462]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.07.28-21.53.28
+[2017.07.29-01.53.28:669][462]LogWorld: Bringing up level for play took: 0.004249
+[2017.07.29-01.53.28:672][462]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.429
+[2017.07.29-01.53.57:641][302]LogSlate: Took 0.008154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.07.29-01.54.33:011][163]BlueprintLog: New page: Compile BP_RtsCameraRig
+[2017.07.29-01.54.34:041][176]LogSavePackage: Save=42.43ms
+[2017.07.29-01.54.34:041][176]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_RtsCameraRig3454E2A14C988AB77D6F56857CC07BBE.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset'
+[2017.07.29-01.54.34:045][176]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset
+[2017.07.29-01.54.42:603][393]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-01.54.42:622][393]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.29-01.54.42:622][393]LogPlayLevel: [PlayLevel] Compiling BP_RtsCameraRig before play...
+[2017.07.29-01.54.42:779][393]LogPlayLevel: PlayLevel: Blueprint regeneration took 156 ms (1 blueprints)
+[2017.07.29-01.54.42:779][393]PIE: New page: PIE session: Untitled_1 (Jul 28, 2017, 5:54:42 PM)
+[2017.07.29-01.54.42:779][393]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.07.29-01.54.42:781][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002268s)
+[2017.07.29-01.54.42:782][393]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.29-01.54.42:783][393]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2017.07.29-01.54.42:783][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003903s)
+[2017.07.29-01.54.42:843][393]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-01.54.42:854][393]LogInit: FAudioDevice initialized.
+[2017.07.29-01.54.42:888][393]LogLoad: Game class is 'GameModeBase'
+[2017.07.29-01.54.42:889][393]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.07.28-21.54.42
+[2017.07.29-01.54.42:890][393]LogWorld: Bringing up level for play took: 0.001419
+[2017.07.29-01.54.42:891][393]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.21
+[2017.07.29-01.55.45:159][120]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.29-01.56.59:904][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-01.56.59:934][758]LogSavePackage: Save=26.92ms
+[2017.07.29-01.56.59:935][758]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon3A64820D457FD791C79F2DA122C258E8.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-01.56.59:938][758]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-01.56.59:995][758]LogSavePackage: Save=48.06ms
+[2017.07.29-01.56.59:995][758]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_RtsCameraRigB6B00AF04AA98CC50C7ECAA122A28A94.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset'
+[2017.07.29-01.56.59:999][758]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/BP_RtsCameraRig.uasset
+[2017.07.29-01.57.17:671][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-01.57.17:768][758]LogSavePackage: Save=54.69ms
+[2017.07.29-01.57.17:768][758]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap1ADE359BC4EB3AEC1C1ED7FB10100B15C.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-01.57.17:772][758]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-01.57.17:804][758]LogFileHelpers: Saving map 'TestMap1' took 0.740
+[2017.07.29-01.57.34:707][317]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.34:863][317]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.39:471][418]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.39:486][418]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-01.57.42:622][482]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.07.29-01.57.42:622][482]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.29-01.57.42:622][482]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.29-01.57.44:272][512]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.44:294][512]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-01.57.47:636][575]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.07.29-01.57.47:636][575]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.29-01.57.47:636][575]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.29-01.57.47:874][578]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.47:905][578]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-01.57.48:840][595]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.48:870][595]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.07.29-01.57.51:895][650]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.07.29-01.57.51:895][650]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.29-01.57.51:895][650]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.29-01.57.56:753][702]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.56:811][702]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.56:849][702]LogMaterial: Missing cached shader map for material Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.56:952][702]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_TestMat_01, compiling. 
+[2017.07.29-01.57.58:558][702]TextureStreamingBuild:Display: Compiling optional shaders took 1.622 seconds.
+[2017.07.29-01.57.58:768][702]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.29-01.57.59:778][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-01.58.12:773][ 23]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-01.58.13:910][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-01.58.13:962][ 41]LogSavePackage: Save=32.41ms
+[2017.07.29-01.58.13:962][ 41]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon295EE697494A528EF8B8738EA313BAC0.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-01.58.13:965][ 41]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-01.58.21:014][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-01.58.24:024][387]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-01.58.44:510][  8]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-01.58.45:601][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-01.58.45:629][ 24]LogSavePackage: Save=24.83ms
+[2017.07.29-01.58.45:629][ 24]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_PeonD7DEBF314035443088853BB89926C73C.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-01.58.45:633][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-01.59.31:796][185]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-01.59.32:782][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-01.59.32:824][200]LogSavePackage: Save=39.19ms
+[2017.07.29-01.59.32:824][200]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_PeonAF21EAB5441BCBF003DE26A1EDB42589.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-01.59.32:828][200]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-01.59.35:907][308]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-01.59.35:928][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-01.59.35:929][308]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 5:59:35 PM)
+[2017.07.29-01.59.35:929][308]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-01.59.35:932][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002955s)
+[2017.07.29-01.59.35:933][308]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-01.59.35:933][308]LogPlayLevel: PIE: World Init took: (0.001408s)
+[2017.07.29-01.59.35:933][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.004737s)
+[2017.07.29-01.59.35:973][308]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-01.59.35:985][308]LogInit: FAudioDevice initialized.
+[2017.07.29-01.59.36:020][308]LogLoad: Game class is 'GameModeBase'
+[2017.07.29-01.59.36:023][308]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-21.59.36
+[2017.07.29-01.59.36:034][308]LogWorld: Bringing up level for play took: 0.013059
+[2017.07.29-01.59.36:035][308]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 0.935
+[2017.07.29-02.00.24:193][966]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.29-02.00.43:068][379]BlueprintLog: New page: Compile GM_LD39
+[2017.07.29-02.00.44:316][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Logic/GM_LD39" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset" SILENT=true
+[2017.07.29-02.00.44:338][402]LogSavePackage: Save=17.50ms
+[2017.07.29-02.00.44:338][402]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/GM_LD39727CA48E4037BF622142DBB19A0B5B70.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset'
+[2017.07.29-02.00.44:341][402]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset
+[2017.07.29-02.01.19:224][188]BlueprintLog: New page: Compile PC_CameraRig
+[2017.07.29-02.01.20:084][199]LogSavePackage: Save=17.52ms
+[2017.07.29-02.01.20:084][199]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/PC_CameraRigC9F548A248320FDCDB7FE184BFAAB1B1.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset'
+[2017.07.29-02.01.20:088][199]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/RtsCameraRig/PC_CameraRig.uasset
+[2017.07.29-02.01.22:751][287]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.01.22:774][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.01.22:775][287]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:01:22 PM)
+[2017.07.29-02.01.22:775][287]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.01.22:777][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002766s)
+[2017.07.29-02.01.22:779][287]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.01.22:779][287]LogPlayLevel: PIE: World Init took: (0.001309s)
+[2017.07.29-02.01.22:779][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.004439s)
+[2017.07.29-02.01.22:825][287]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.01.22:839][287]LogInit: FAudioDevice initialized.
+[2017.07.29-02.01.22:877][287]LogLoad: Game class is 'GameModeBase'
+[2017.07.29-02.01.22:879][287]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.01.22
+[2017.07.29-02.01.22:879][287]LogWorld: Bringing up level for play took: 0.001478
+[2017.07.29-02.01.22:880][287]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.22
+[2017.07.29-02.01.30:597][629]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-02.01.32:158][696]Cmd: DELETE
+[2017.07.29-02.01.32:158][696]Cmd: ACTOR DELETE
+[2017.07.29-02.01.32:175][696]LogEditorActor: Deleted Actor: BP_Peon_C
+[2017.07.29-02.01.32:219][696]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2017.07.29-02.01.33:615][759]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.01.33:640][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.01.33:640][759]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:01:33 PM)
+[2017.07.29-02.01.33:640][759]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.01.33:642][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001962s)
+[2017.07.29-02.01.33:643][759]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.01.33:643][759]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2017.07.29-02.01.33:643][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.003303s)
+[2017.07.29-02.01.33:686][759]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.01.33:697][759]LogInit: FAudioDevice initialized.
+[2017.07.29-02.01.33:736][759]LogLoad: Game class is 'GameModeBase'
+[2017.07.29-02.01.33:738][759]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.01.33
+[2017.07.29-02.01.33:738][759]LogWorld: Bringing up level for play took: 0.001395
+[2017.07.29-02.01.33:739][759]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 0.639
+[2017.07.29-02.02.04:844][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.02.06:414][750]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.29-02.02.18:039][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-02.02.18:136][116]LogSavePackage: Save=47.81ms
+[2017.07.29-02.02.18:136][116]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap1F9E3B791462B7A81A54F78BCFF9C0274.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-02.02.18:141][116]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-02.02.18:181][116]LogFileHelpers: Saving map 'TestMap1' took 0.214
+[2017.07.29-02.02.18:218][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/RawResources/TestMats/Mat_TestMat_01" FILE="../../../../../../Projects/LD39/Content/LD39Custom/RawResources/TestMats/Mat_TestMat_01.uasset" SILENT=true
+[2017.07.29-02.02.18:239][116]LogSavePackage: Save=18.98ms
+[2017.07.29-02.02.18:240][116]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/Mat_TestMat_01B0D9C4DF4C01C4C63286B489ABBC4CDD.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/RawResources/TestMats/Mat_TestMat_01.uasset'
+[2017.07.29-02.02.18:243][116]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/RawResources/TestMats/Mat_TestMat_01.uasset
+[2017.07.29-02.02.29:471][536]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.29-02.02.33:035][678]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.02.33:065][678]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.02.33:066][678]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:02:33 PM)
+[2017.07.29-02.02.33:066][678]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.02.33:068][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002094s)
+[2017.07.29-02.02.33:069][678]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.02.33:069][678]LogPlayLevel: PIE: World Init took: (0.001529s)
+[2017.07.29-02.02.33:070][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.003897s)
+[2017.07.29-02.02.33:115][678]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.02.33:125][678]LogInit: FAudioDevice initialized.
+[2017.07.29-02.02.33:163][678]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.02.33:165][678]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.02.33
+[2017.07.29-02.02.33:165][678]LogWorld: Bringing up level for play took: 0.001394
+[2017.07.29-02.02.33:166][678]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 0.066
+[2017.07.29-02.02.42:702][100]LogEditorViewport: Clicking on Actor (LMB): BP_RtsCameraRig_C (BP_RtsCameraRig)
+[2017.07.29-02.02.45:009][179]Cmd: DELETE
+[2017.07.29-02.02.45:009][179]Cmd: ACTOR DELETE
+[2017.07.29-02.02.45:010][179]LogEditorActor: Deleted Actor: BP_RtsCameraRig_C
+[2017.07.29-02.02.45:105][179]LogEditorActor: Deleted 1 Actors (0.096 secs)
+[2017.07.29-02.02.50:885][404]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-02.02.50:914][404]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-02.02.50:914][404]PIE: New page: PIE session: TestMap1 (Jul 28, 2017, 6:02:50 PM)
+[2017.07.29-02.02.50:914][404]LogPlayLevel: Creating play world package: /Game/LD39Custom/Maps/UEDPIE_0_TestMap1
+[2017.07.29-02.02.50:918][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004020s)
+[2017.07.29-02.02.50:919][404]LogAIModule: Creating AISystem for world TestMap1
+[2017.07.29-02.02.50:919][404]LogPlayLevel: PIE: World Init took: (0.001131s)
+[2017.07.29-02.02.50:919][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LD39Custom/Maps/TestMap1.TestMap1 to /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 (0.005457s)
+[2017.07.29-02.02.50:960][404]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-02.02.50:971][404]LogInit: FAudioDevice initialized.
+[2017.07.29-02.02.51:009][404]LogLoad: Game class is 'GM_LD39_C'
+[2017.07.29-02.02.51:011][404]LogWorld: Bringing World /Game/LD39Custom/Maps/UEDPIE_0_TestMap1.TestMap1 up for play (max tick rate 60) at 2017.07.28-22.02.51
+[2017.07.29-02.02.51:011][404]LogWorld: Bringing up level for play took: 0.001460
+[2017.07.29-02.02.51:022][404]PIE: Info Play in editor start time for /Game/LD39Custom/Maps/UEDPIE_0_TestMap1 -0.078
+[2017.07.29-02.02.53:538][527]LogBlueprintUserMessages: [BP_Peon_241] Clickity
+[2017.07.29-02.02.54:159][558]LogBlueprintUserMessages: [BP_Peon_241] Clickity
+[2017.07.29-02.02.54:340][567]LogBlueprintUserMessages: [BP_Peon_241] Clickity
+[2017.07.29-02.02.54:501][575]LogBlueprintUserMessages: [BP_Peon_241] Clickity
+[2017.07.29-02.02.54:663][583]LogBlueprintUserMessages: [BP_Peon_241] Clickity
+[2017.07.29-02.02.54:803][590]LogBlueprintUserMessages: [BP_Peon_241] Clickity
+[2017.07.29-02.02.54:943][597]LogBlueprintUserMessages: [BP_Peon_241] Clickity
+[2017.07.29-02.02.58:076][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.03.11:484][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.03.12:479][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.03.36:871][361]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-02.03.42:117][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.03.47:134][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.03.47:679][808]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.07.29-02.03.48:625][860]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.29-02.03.51:549][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.04.34:367][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.04.35:175][586]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.29-02.04.35:719][607]LogEditorViewport: Clicking on Actor (LMB): BP_Peon_C (BP_Peon)
+[2017.07.29-02.05.16:610][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-02.05.16:700][128]LogSavePackage: Save=46.72ms
+[2017.07.29-02.05.16:700][128]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap181569B874336FF51753C29A549C8AD1F.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-02.05.16:703][128]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-02.05.43:753][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.29-02.06.50:922][852]BlueprintLog: New page: Compile GM_LD39
+[2017.07.29-02.06.52:021][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Logic/GM_LD39" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset" SILENT=true
+[2017.07.29-02.06.52:053][878]LogSavePackage: Save=17.19ms
+[2017.07.29-02.06.52:053][878]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/GM_LD39657CB27745A4CDC223057BA71984432E.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset'
+[2017.07.29-02.06.52:057][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset
+[2017.07.29-02.08.47:086][226]BlueprintLog: New page: Compile PC_CameraRig
+[2017.07.29-02.08.48:429][259]BlueprintLog: New page: Compile GM_LD39
+[2017.07.29-02.08.50:358][313]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.08.50:375][313]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.08.50:376][313]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.08.50:378][313]LogBlueprint:Error: [Compiler BP_Peon] Error  ActionRecieved  Signature Error: The function/event 'ActionRecieved' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.08.50:609][313]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.08.50:609][313]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.08.50:609][313]BlueprintEditorCompileResults:Error: Error  ActionRecieved  Signature Error: The function/event 'ActionRecieved' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.08.50:610][313]LogBlueprint:Warning: [Compiler BP_Peon] Warning [1874.68] Compile of BP_Peon failed. 1 Fatal Issue(s) 2 Warning(s) [in 250 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.09.05:649][847]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.09.05:661][847]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.09.05:661][847]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.09.05:662][847]LogBlueprint:Error: [Compiler BP_Peon] Error  CustomEvent_0  Signature Error: The function/event 'CustomEvent_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.09.05:886][847]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.09.05:886][847]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.09.05:886][847]BlueprintEditorCompileResults:Error: Error  CustomEvent_0  Signature Error: The function/event 'CustomEvent_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.09.05:886][847]LogBlueprint:Warning: [Compiler BP_Peon] Warning [1889.96] Compile of BP_Peon failed. 1 Fatal Issue(s) 2 Warning(s) [in 236 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.09.20:245][262]BlueprintLog: New page: Compile GM_LD39
+[2017.07.29-02.09.22:545][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Logic/GM_LD39" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset" SILENT=true
+[2017.07.29-02.09.22:565][322]LogSavePackage: Save=17.44ms
+[2017.07.29-02.09.22:565][322]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/GM_LD3952C8874C427969D42B59BBA6A1FC883D.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset'
+[2017.07.29-02.09.22:567][322]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset
+[2017.07.29-02.09.40:493][854]BlueprintLog: New page: Compile GM_LD39
+[2017.07.29-02.09.55:052][257]BlueprintLog: New page: Compile GM_LD39
+[2017.07.29-02.10.41:648][173]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.10.41:663][173]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.10.41:663][173]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.10.41:664][173]LogBlueprint:Error: [Compiler BP_Peon] Error  CustomEvent_0  Signature Error: The function/event 'CustomEvent_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.10.41:928][173]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.10.41:928][173]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.10.41:928][173]BlueprintEditorCompileResults:Error: Error  CustomEvent_0  Signature Error: The function/event 'CustomEvent_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.10.41:928][173]LogBlueprint:Warning: [Compiler BP_Peon] Warning [1986.00] Compile of BP_Peon failed. 1 Fatal Issue(s) 2 Warning(s) [in 280 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.12.55:696][ 47]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.12.55:705][ 47]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.12.55:705][ 47]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.12.55:706][ 47]LogBlueprint:Error: [Compiler BP_Peon] Error  OnActionRecieved  Signature Error: The function/event 'OnActionRecieved' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.12.55:941][ 47]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.12.55:941][ 47]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.12.55:941][ 47]BlueprintEditorCompileResults:Error: Error  OnActionRecieved  Signature Error: The function/event 'OnActionRecieved' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.12.55:942][ 47]LogBlueprint:Warning: [Compiler BP_Peon] Warning [2120.01] Compile of BP_Peon failed. 1 Fatal Issue(s) 2 Warning(s) [in 245 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.14.09:438][541]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.14.09:458][541]LogBlueprint:Error: [Compiler BP_Peon] Error  Create Event  : missing a function/event name.
+[2017.07.29-02.14.09:459][541]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.09:459][541]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.09:460][541]LogBlueprint:Error: [Compiler BP_Peon] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.29-02.14.09:460][541]LogBlueprint:Error: [Compiler BP_Peon] Error  Create Event  Signature Error: No function/event specified.
+[2017.07.29-02.14.09:696][541]BlueprintEditorCompileResults:Error: Error  Create Event  : missing a function/event name.
+[2017.07.29-02.14.09:696][541]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.09:696][541]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.09:696][541]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.29-02.14.09:696][541]BlueprintEditorCompileResults:Error: Error  Create Event  Signature Error: No function/event specified.
+[2017.07.29-02.14.09:696][541]LogBlueprint:Warning: [Compiler BP_Peon] Warning [2193.77] Compile of BP_Peon failed. 3 Fatal Issue(s) 2 Warning(s) [in 257 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.14.10:661][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-02.14.10:713][568]LogSavePackage: Save=42.62ms
+[2017.07.29-02.14.10:713][568]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon70527D2949C2A426269501A476918666.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-02.14.10:716][568]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-02.14.27:894][217]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.14.27:906][217]LogBlueprint:Error: [Compiler BP_Peon] Error  Create Event  : missing a function/event name.
+[2017.07.29-02.14.27:906][217]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.27:906][217]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.27:906][217]LogBlueprint:Error: [Compiler BP_Peon] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.29-02.14.27:907][217]LogBlueprint:Error: [Compiler BP_Peon] Error  Create Event  Signature Error: No function/event specified.
+[2017.07.29-02.14.28:129][217]BlueprintEditorCompileResults:Error: Error  Create Event  : missing a function/event name.
+[2017.07.29-02.14.28:129][217]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.28:129][217]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.28:129][217]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.29-02.14.28:129][217]BlueprintEditorCompileResults:Error: Error  Create Event  Signature Error: No function/event specified.
+[2017.07.29-02.14.28:129][217]LogBlueprint:Warning: [Compiler BP_Peon] Warning [2212.20] Compile of BP_Peon failed. 3 Fatal Issue(s) 2 Warning(s) [in 235 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.14.43:048][708]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.14.43:061][708]LogBlueprint:Error: [Compiler BP_Peon] Error  Create Event  : missing a function/event name.
+[2017.07.29-02.14.43:061][708]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.43:061][708]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.43:061][708]LogBlueprint:Error: [Compiler BP_Peon] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.29-02.14.43:061][708]LogBlueprint:Error: [Compiler BP_Peon] Error  Create Event  Signature Error: No function/event specified.
+[2017.07.29-02.14.43:292][708]BlueprintEditorCompileResults:Error: Error  Create Event  : missing a function/event name.
+[2017.07.29-02.14.43:292][708]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.43:292][708]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.14.43:292][708]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.29-02.14.43:292][708]BlueprintEditorCompileResults:Error: Error  Create Event  Signature Error: No function/event specified.
+[2017.07.29-02.14.43:293][708]LogBlueprint:Warning: [Compiler BP_Peon] Warning [2227.36] Compile of BP_Peon failed. 3 Fatal Issue(s) 2 Warning(s) [in 244 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.14.44:516][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-02.14.44:565][743]LogSavePackage: Save=45.05ms
+[2017.07.29-02.14.44:565][743]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_PeonFBD65B9842E71768D11C9B93CC9EE1AF.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-02.14.44:568][743]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-02.16.05:372][710]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.16.05:386][710]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.05:386][710]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.05:388][710]LogBlueprint:Error: [Compiler BP_Peon] Error  ActionDispatcher_Event_0  Signature Error: The function/event 'ActionDispatcher_Event_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.16.05:620][710]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.05:620][710]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.05:620][710]BlueprintEditorCompileResults:Error: Error  ActionDispatcher_Event_0  Signature Error: The function/event 'ActionDispatcher_Event_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.16.05:621][710]LogBlueprint:Warning: [Compiler BP_Peon] Warning [2309.69] Compile of BP_Peon failed. 1 Fatal Issue(s) 2 Warning(s) [in 248 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.16.20:458][142]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.16.20:471][142]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.20:471][142]LogBlueprint:Warning: [Compiler BP_Peon] Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.20:472][142]LogBlueprint:Error: [Compiler BP_Peon] Error  ActionDispatcher_Event_0  Signature Error: The function/event 'ActionDispatcher_Event_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.16.20:698][142]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Location'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.20:699][142]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'Target'. Node:  Assign Action Dispatcher
+[2017.07.29-02.16.20:699][142]BlueprintEditorCompileResults:Error: Error  ActionDispatcher_Event_0  Signature Error: The function/event 'ActionDispatcher_Event_0' does not match the necessary signature - has the delegate or function/event changed?
+[2017.07.29-02.16.20:699][142]LogBlueprint:Warning: [Compiler BP_Peon] Warning [2324.77] Compile of BP_Peon failed. 1 Fatal Issue(s) 2 Warning(s) [in 240 ms] (/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon.BP_Peon)
+[2017.07.29-02.17.53:165][338]LogClass:Warning: Type mismatch in NewVar_0 of SKEL_GM_LD39_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.07.29-02.18.30:466][455]BlueprintLog: New page: Compile GM_LD39
+[2017.07.29-02.22.01:686][607]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.22.02:434][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-02.22.02:507][622]LogSavePackage: Save=63.41ms
+[2017.07.29-02.22.02:507][622]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon6D9FBED841D5F88A5FA03585E3D8DD29.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-02.22.02:511][622]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-02.26.48:170][569]BlueprintLog: New page: Compile BP_Peon
+[2017.07.29-02.26.49:272][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BP_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset" SILENT=true
+[2017.07.29-02.26.49:345][586]LogSavePackage: Save=68.76ms
+[2017.07.29-02.26.49:345][586]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BP_Peon3B07E75E4D4614B92483C1860ECF890F.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset'
+[2017.07.29-02.26.49:348][586]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BP_Peon.uasset
+[2017.07.29-02.28.00:372][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BB_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BB_Peon.uasset" SILENT=true
+[2017.07.29-02.28.00:383][941]LogSavePackage: Save=8.00ms
+[2017.07.29-02.28.00:383][941]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BB_PeonA0C0CB3945EC112C9D82CEADB68C57DE.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BB_Peon.uasset'
+[2017.07.29-02.28.00:387][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BB_Peon.uasset
+[2017.07.29-02.28.00:392][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Characters/Peon/BT_Peon" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BT_Peon.uasset" SILENT=true
+[2017.07.29-02.28.00:401][941]LogSavePackage: Save=5.24ms
+[2017.07.29-02.28.00:401][941]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/BT_PeonE9C2A4BF40C07C365D6A9FAB5B278609.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BT_Peon.uasset'
+[2017.07.29-02.28.00:404][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Characters/Peon/BT_Peon.uasset
+[2017.07.29-02.28.00:409][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Blueprints/Logic/GM_LD39" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset" SILENT=true
+[2017.07.29-02.28.00:438][941]LogSavePackage: Save=18.58ms
+[2017.07.29-02.28.00:438][941]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/GM_LD3964B004BF4C9CE93D9DBCA0A714E4C545.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset'
+[2017.07.29-02.28.00:444][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Blueprints/Logic/GM_LD39.uasset
+[2017.07.29-02.28.00:521][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LD39Custom/Maps/TestMap1" FILE="../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-02.28.00:611][941]LogSavePackage: Save=42.60ms
+[2017.07.29-02.28.00:611][941]LogSavePackage: Moving '../../../../../../Projects/LD39/Saved/TestMap195C71DFA4926A09D507AEA935BF36D8F.tmp' to '../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap'
+[2017.07.29-02.28.00:614][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/LD39/Content/LD39Custom/Maps/TestMap1.umap
+[2017.07.29-02.28.00:649][941]LogFileHelpers: Saving map 'TestMap1' took 0.198
